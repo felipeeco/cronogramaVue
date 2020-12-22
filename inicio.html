@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title>Calendario 2021</title>
+	</head>
+	<body>
+		<h1>Calendario 2021</h1>
+
+		<script type="text/javascript">
+		$(document).ready(function(){	
+
+			const urlJson = "calendario-2021-prueba.json"; 
+			const actividades = [];
+			const programas = [];
+			var actividadesFiltradas = [];
+			const divActiidades = "";
+ 
+			$.getJSON(urlJson, function(datosJson){	
+				$.each(datosJson.Nueva_estructura_proveedor, function(IndexHojaUno,ObjActividades){
+					actividades.push(ObjActividades);
+				});
+				$.each(datosJson.BD_programas, function(IndexHojaUno,ObjProgramas){
+					programas.push(ObjProgramas);
+				});
+			});
+
+			/*
+			console.log("prueba 2");
+			console.log(actividades);
+			console.log(programas);
+			*/
+
+
+			function FiltrarPrimerSemestre(){
+
+			}
+		});
+		</script>
+	</body>
+</html>
+
+

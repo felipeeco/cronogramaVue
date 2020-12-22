@@ -1,0 +1,231 @@
+<link href="/PortalUrosario/media/UR-V4/Calendario-Academico-2020/css/calendario-2020.css" rel="stylesheet" />
+<div class="Calendario">
+   <p class="calendario-titulo">Calendario Académico</p>
+   <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item"><a aria-controls="home" aria-selected="true" class="nav-link active" data-toggle="tab" href="#home" id="home-tab" role="tab">Estudiantes</a></li>
+   </ul>
+   <!--TAB 1 ESTUDIANTES-->
+   <div class="tab-content" id="myTabContent">
+      <div aria-labelledby="home-tab" class="tab-pane fade show active" id="home" role="tabpanel">
+         <!--Semestres-->
+         <div class="flex-container">
+            <div class="Semestre">
+               <div class="custom-control form-control-lg custom-checkbox"><input class="custom-control-input" id="customCheck1" type="checkbox" /> <label class="custom-control-label" for="customCheck1">Semestre <span class="num">1</span></label></div>
+               <p>Enero 17-2020<br />
+                  Mayo 15-2020
+               </p>
+            </div>
+            <div class="Semestre">
+               <div class="custom-control form-control-lg custom-checkbox"><input class="custom-control-input" id="customCheck2" type="checkbox" /> <label class="custom-control-label" for="customCheck2">Semestre <span class="num">2</span></label></div>
+               <p>Agosto 15-2020<br />
+                  Diciembre 20-2020
+               </p>
+            </div>
+            <div class="Semestre">
+               <div class="custom-control form-control-lg custom-checkbox"><input class="custom-control-input" id="customCheck3" type="checkbox" /> <label class="custom-control-label" for="customCheck3">Intersemestral</label></div>
+               <p>Enero 17-2020<br />
+                  Mayo 15-2020
+               </p>
+            </div>
+            <div class="col-lg-12 fechas">
+               <div class="row">
+                  <div class="col-lg-9">&nbsp;</div>
+                  <div class="col-lg-3">
+                     <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                           <option disabled="disabled" selected="selected">Organizar por:</option>
+                           <option>Fecha Inicio</option>
+                           <option>Fecha Final</option>
+                        </select>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--Formulario de Busqueda-->
+         <div class="Formulario_calndario">
+            <div class="row">
+               <div class="col-lg-4">
+                  <div class="form Formulario_busqueda">
+                     <div class="input-group espacio">
+                        <div class="input-group-btn">
+                           <button class="btn btn-default" type="submit">
+                              <i class="fas fa-search">
+                                 <!--icono-->
+                              </i>
+                           </button>
+                        </div>
+                        <input class="form-control" name="search" placeholder="¿Qué estás buscando?" type="text" />
+                     </div>
+                     &nbsp;
+                     <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                           <option disabled="disabled" selected="selected">Tipo de programa</option>
+                           <option>Pregrado</option>
+                           <option>Posgrado</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                           <option disabled="disabled" selected="selected">Categoria</option>
+                           <option>Cierre académico</option>
+                           <option>Comité de idiomas</option>
+                           <option>Exámenes finales</option>
+                           <option>Homologaciones, reconocimientos y validaciones</option>
+                           <option>Inicio y finalización de clases</option>
+                           <option>Otras actividades de la vida universitaria</option>
+                           <option>Pago de matrículas</option>
+                           <option>Proceso de inducción</option>
+                           <option>Publicación de grupos cancelados</option>
+                           <option>Recesos y vacaciones</option>
+                           <option>Registro de asignaturas</option>
+                           <option>Reporte de notas</option>
+                           <option>Reserva de cupo, re activaciones de cupo y reintegros</option>
+                           <option>Retiro de asignaturas</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                           <option disabled="disabled" selected="selected">Tipo de programa</option>
+                           <option>Escuela de Administración</option>
+                           <option>Escuela de Medicina y Ciencias de la Salud</option>
+                           <option>Escuela de Ciencias Humanas</option>
+                           <option>Facultad de Economía</option>
+                           <option>Facultad de Jurisprudencia</option>
+                           <option>Facultad de Estudios Internacionales, Políticos y Urbanos</option>
+                           <option>Facultad de Ciencias Naturales</option>
+                           <option>Facultad de Creación</option>
+                           <option>Escuela de Ingeniería, Ciencia y Tecnologí</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <div class="input-group">
+                           <div class="input-group-btn">
+                              <button class="btn btn-default" type="submit">
+                                 <i class="fas fa-search">
+                                    <!--icono-->
+                                 </i>
+                              </button>
+                           </div>
+                           <input class="form-control" name="search" placeholder="Programa" type="text" />
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <p><a aria-controls="multiCollapseExample1" aria-expanded="false" class="Fecha" data-toggle="collapse" href="#multiCollapseExample1" role="button">Seleccione un mes</a></p>
+                        <div class="row">
+                           <div class="col">
+                              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                 <div class="card card-body"><input class="form-control" id="example-date-input" type="date" value="2011-08-19" /></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <p><a aria-controls="multiCollapseExample2" aria-expanded="false" class="Fecha" data-toggle="collapse" href="#multiCollapseExample2" role="button">Seleccione un mes</a></p>
+                           <div class="row">
+                              <div class="col">
+                                 <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <div class="card card-body">
+                                       <p>Fecha inicial</p>
+                                       <input class="form-control" id="example-date-input" type="date" value="2011-08-19" />
+                                       <p>Fecha final</p>
+                                       <input class="form-control" id="example-date-input" type="date" value="2011-08-19" />
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <div class="col-md-6">
+                              <input class="btn btn-primary" type="submit">Buscar</input>
+                           </div>
+                           <div class="col-md-6">
+                              <input class="btn btn-primary Limpiar" type="submit">Limpiar</input>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-8">
+                  <!--Descripcion del cuero ofertado-->
+                  <div class="row Programa-especifico">
+                     <div class="col-md-4 col-lg-4 Fecha">
+                        <div class="row">
+                           <div class="col-md-2 col-lg-2">
+                              <i class="far fa-calendar">
+                                 <!--icono--> 
+                              </i>
+                           </div>
+                           <div class="col-md-10 col-lg-10 px-5"><strong class="titulo">Marzo 08</strong> <span>Abril 17 2020</span></div>
+                        </div>
+                        <div class="mt-3 txt"><strong>Tipo de programa</strong> <span>Pregrado</span><br />
+                           <strong>Facultad</strong> <span>Escuela de Ciencias Humanas</span><br />
+                           <strong>Programa</strong> <span>Antropologia</span><br />
+                           <strong>Categoria</strong> <span>Estudiantes, Profesores y Funcionarios</span>
+                        </div>
+                     </div>
+                     <div class="col-md-8 col-lg-8 Descripcion">
+                        <p class="titulo">Pago de matriculas</p>
+                        <p class="txt">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        <i class="fas fa-map-marker-alt">
+                           <!--icon--> 
+                        </i>
+                        <strong>Lugar:</strong> <span class="txt">Universidad del Rosario, Sede, Claustro, Aula Mutis</span><br />
+                        <i class="far fa-calendar">
+                           <!--icono--> 
+                        </i>
+                        <strong>Día:</strong> <span class="txt">12 Marzo, de 2020</span><br />
+                        <i class="far fa-clock">
+                           <!--icono--> 
+                        </i>
+                        <strong>Hora:</strong> <span class="txt">De 8:00 a.m. a 12:30 p.m</span>
+                        <div class="row">
+                           <div class="col-lg-3 Semestre_uno"><a href="">Semestre l</a></div>
+                           <div class="col-lg-3 Cerrado"><a href="">Cerrado</a></div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--Fin Descripcion del cuero ofertado--><!--Descripcion del cuero ofertado-->
+                  <div class="row Programa-especifico">
+                     <div class="col-md-4 col-lg-4 Fecha">
+                        <div class="row">
+                           <div class="col-md-2 col-lg-2">
+                              <i class="far fa-calendar">
+                                 <!--icono--> 
+                              </i>
+                           </div>
+                           <div class="col-md-10 col-lg-10 px-5"><strong class="titulo">Marzo 08</strong> <span>Abril 17 2020</span></div>
+                        </div>
+                        <div class="mt-3 txt"><strong>Tipo de programa</strong> <span>Pregrado</span><br />
+                           <strong>Facultad</strong> <span>Escuela de Ciencias Humanas</span><br />
+                           <strong>Programa</strong> <span>Antropologia</span><br />
+                           <strong>Categoria</strong> <span>Estudiantes, Profesores y Funcionarios</span>
+                        </div>
+                     </div>
+                     <div class="col-md-8 col-lg-8 Descripcion">
+                        <p class="titulo">Pago de matriculas</p>
+                        <p class="txt">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        <i class="fas fa-map-marker-alt">
+                           <!--icon--> 
+                        </i>
+                        <strong>Lugar:</strong> <span class="txt">Universidad del Rosario, Sede, Claustro, Aula Mutis</span><br />
+                        <i class="far fa-calendar">
+                           <!--icono--> 
+                        </i>
+                        <strong>Día:</strong> <span class="txt">12 Marzo, de 2020</span><br />
+                        <i class="far fa-clock">
+                           <!--icono--> 
+                        </i>
+                        <strong>Hora:</strong> <span class="txt">De 8:00 a.m. a 12:30 p.m</span>
+                        <div class="row">
+                           <div class="col-lg-3 Semestre_dos"><a href="">Semestre ll</a></div>
+                           <div class="col-lg-3 Abierto"><a href="">Abierto</a></div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--Fin Descripcion del cuero ofertado-->
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
