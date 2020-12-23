@@ -1,6 +1,17 @@
-// funciones javascript
-
-
+//funciones
+function estadoFunction(date){
+    var dateObj = new Date();
+    var month = dateObj.getUTCMonth() + 1; //months from 1-12
+    var day = dateObj.getUTCDate();
+    var year = dateObj.getUTCFullYear();
+    var fechaActual = new Date(year + "-" + month + "-" + day);
+    var fechaInicioEvento = new Date(date);
+    if(fechaInicioEvento > fechaActual){
+        return true;
+    }else{
+        return false;
+    }
+}
 
 //componentes
 Vue.component('actividades', {
@@ -16,12 +27,16 @@ Vue.component('actividades', {
                                     <!--icono-->
                                 </i>
                             </div>
-                            <div class="col-md-10 col-lg-10 px-5"><strong class="titulo">Marzo 08</strong> <span>Abril 17 2020</span></div>
+                            <div class="col-md-10 col-lg-10 px-5">
+                                <strong class="titulo">{{ mes(item.fechaInicio) }} {{ dia(item.fechaInicio) }}</strong> 
+                                <span>{{ mes(item.fechaFin) }} {{ dia(item.fechaFin) }} {{ year(item.fechaFin) }}</span>
+                            </div>
                         </div>
                         <div class="mt-3 txt">
                             <strong>Tipo de programa</strong> <span>{{ item.tipoPrograma }}</span><br />
                             <strong>Facultad</strong> <span>{{ item.facultad }}</span><br />
-                            <strong>Programa</strong> <span>{{ item.programa }}</span><br />
+                            <strong>Programa</strong> 
+                            <span v-for="(elem, i) in item.programa.split(';')" v-bind:key="i">{{ elem }} <br /></span><br />
                             <strong>Categoria</strong> <span>{{ item.categoria }}</span>
                         </div>
                     </div>
@@ -56,7 +71,7 @@ Vue.component('actividades', {
                         -->
                         <div class="row">
                             <div class="col-lg-3 Semestre_uno"><a href="">{{ item.periodo }}</a></div>
-                            <div class="col-lg-3 Cerrado"><a href="">Cerrado</a></div>
+                            <div class="col-lg-3 Cerrado"><a href="">{{ estado(item.fechaFin) }}</a></div>
                         </div>
                     </div>
                 </div>
@@ -67,7 +82,7 @@ Vue.component('actividades', {
         ...Vuex.mapState(['actividades','programas']),
     },
     methods: {
-        year(date) { 
+        year(date){
             return date.substring(0, 4);
         },
         mes(date){
@@ -112,6 +127,18 @@ Vue.component('actividades', {
         },
         dia(date){
             return date.substring(8);
+        },
+        estado(date){
+            if(estadoFunction(date)){
+                return "Abierto";
+            }else{
+                return "Cerrado";
+            }
+        },
+        programasMethod(programas){
+           if(programas){
+            return programas.replaceAll(";", "\ns");
+           }  
         }
     }
 });
@@ -119,18 +146,24 @@ Vue.component('actividades', {
 //VueEx
 const store = new Vuex.Store({
     state: {
-        actividadesSinFiltro: [],
+        actividadesPrimerFiltro: [],
         actividades: [],
         programas: []
     },
     mutations: {
         llamarJsonMutation(state, llamarJsonAction){
-            state.actividadesSinFiltro = llamarJsonAction.Nueva_estructura_proveedor;
-            state.programas = llamarJsonAction.BD_programas;
-            state.actividades = state.actividadesSinFiltro;
 
-            console.log(state.actividades);
-        }
+            state.programas = llamarJsonAction.BD_programas;
+
+            //filtro por eventos cerrados y abiertos
+            llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
+                if(estadoFunction(item.fechaFin)){
+                    state.actividadesPrimerFiltro.push(item);
+                }
+            });
+
+            state.actividades = state.actividadesPrimerFiltro.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
+        },
     },
     actions: {
         llamarJson: async function({ commit }){
@@ -145,7 +178,7 @@ const store = new Vuex.Store({
 new Vue({
     el: '#caja-vue',
     store: store,
-    created() {
+    created(){
         this.$store.dispatch('llamarJson');
-      }
+    }
 });
