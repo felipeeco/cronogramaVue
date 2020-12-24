@@ -34,9 +34,9 @@ Vue.component('actividades', {
                         </div>
                         <div class="mt-3 txt">
                             <strong>Tipo de programa</strong> <span>{{ item.tipoPrograma }}</span><br />
-                            <strong>Facultad</strong> <span>{{ item.facultad }}</span><br />
+                            <strong>Facultad</strong> <span v-html="programasMethod(item.facultad)"></span><br />
                             <strong>Programa</strong> 
-                            <span v-for="(elem, i) in item.programa.split(';')" v-bind:key="i">{{ elem }} <br /></span><br />
+                            <span v-html="programasMethod(item.programa)"></span><br />
                             <strong>Categoria</strong> <span>{{ item.categoria }}</span>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ Vue.component('actividades', {
         },
         programasMethod(programas){
            if(programas){
-            return programas.replaceAll(";", "\ns");
+            return programas.replaceAll(";", "<br />");
            }  
         }
     }
