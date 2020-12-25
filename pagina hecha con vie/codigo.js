@@ -143,6 +143,27 @@ Vue.component('actividades', {
     }
 });
 
+Vue.component('ordenar',{
+    template: /*html*/
+        `
+        <select class="form-control" @change="ordenarMethod($event)" id="exampleFormControlSelect1">
+            <option disabled="disabled" selected="selected">Organizar por:</option>
+            <option value="orden-ascendente">Orden ascendente</option>
+            <option value="orden-descendente">Orden descendente</option>
+        </select>
+        `,
+        methods: {
+            ordenarMethod(event){
+                if(event.target.value == "orden-ascendente"){
+                    store.state.actividades = store.state.actividades.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
+                }else if(event.target.value == "orden-descendente"){
+                    store.state.actividades = store.state.actividades.sort((a, b) => parseFloat(b.fechaInicio) - parseFloat(a.fechaInicio));
+                }
+            }
+        }
+
+});
+
 //VueEx
 const store = new Vuex.Store({
     state: {
@@ -163,7 +184,7 @@ const store = new Vuex.Store({
             });
 
             state.actividades = state.actividadesPrimerFiltro.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
-        },
+        }
     },
     actions: {
         llamarJson: async function({ commit }){
