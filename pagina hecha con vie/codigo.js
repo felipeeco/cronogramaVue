@@ -147,9 +147,8 @@ Vue.component('ordenar',{
     template: /*html*/
         `
         <select class="form-control" @change="ordenarMethod($event)" id="exampleFormControlSelect1">
-            <option disabled="disabled" selected="selected">Organizar por:</option>
-            <option value="orden-ascendente">Orden ascendente</option>
-            <option value="orden-descendente">Orden descendente</option>
+            <option selected="selected" value="orden-ascendente">Orden ascendente (fecha de inicio)</option>
+            <option value="orden-descendente">Orden descendente (fecha de inicio)</option>
         </select>
         `,
         methods: {
@@ -164,12 +163,130 @@ Vue.component('ordenar',{
 
 });
 
+Vue.component('filtro',{
+    template: /* html */
+    `
+    <div class="form Formulario_busqueda">
+        <div class="input-group espacio">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                    <i class="fas fa-search">
+                        <!--icono-->
+                    </i>
+                </button>
+            </div>
+            <input class="form-control" v-model="filtro.palabraClaveFiltro" name="search" placeholder="¿Qué estás buscando?" type="text" />
+            </div>
+            <div class="form-group">
+            <select class="form-control" v-model="filtro.tipoProgramaFiltro">
+                <option disabled value="">Tipo de programa</option>
+                <option>Pregrado</option>
+                <option>Posgrado</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <select class="form-control" v-model="filtro.categoriaFiltro">
+                <option disabled value="">Categoria</option>
+                <option>Cierre académico</option>
+                <option>Comité de idiomas</option>
+                <option>Exámenes finales</option>
+                <option>Homologaciones, reconocimientos y validaciones</option>
+                <option>Inicio y finalización de clases</option>
+                <option>Otras actividades de la vida universitaria</option>
+                <option>Pago de matrículas</option>
+                <option>Proceso de inducción</option>
+                <option>Publicación de grupos cancelados</option>
+                <option>Recesos y vacaciones</option>
+                <option>Registro de asignaturas</option>
+                <option>Reporte de notas</option>
+                <option>Reserva de cupo, re activaciones de cupo y reintegros</option>
+                <option>Retiro de asignaturas</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <select class="form-control" v-model="filtro.facultadFiltro">
+                <option disabled value="">Facultad</option>
+                <option>Escuela de Administración</option>
+                <option>Escuela de Medicina y Ciencias de la Salud</option>
+                <option>Escuela de Ciencias Humanas</option>
+                <option>Facultad de Economía</option>
+                <option>Facultad de Jurisprudencia</option>
+                <option>Facultad de Estudios Internacionales, Políticos y Urbanos</option>
+                <option>Facultad de Ciencias Naturales</option>
+                <option>Facultad de Creación</option>
+                <option>Escuela de Ingeniería, Ciencia y Tecnologí</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="fas fa-search">
+                        <!--icono-->
+                        </i>
+                    </button>
+                </div>
+                <input class="form-control" name="search" v-model="filtro.programaFiltro" placeholder="Programa" type="text" />
+            </div>
+            </div>
+            <div class="form-group">
+            <p><a aria-controls="multiCollapseExample1" aria-expanded="false" class="Fecha" data-toggle="collapse" href="#multiCollapseExample1" role="button">Seleccione un mes</a></p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body"><input class="form-control" id="example-date-input" type="date" value="2011-08-19" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><a aria-controls="multiCollapseExample2" aria-expanded="false" class="Fecha" data-toggle="collapse" href="#multiCollapseExample2" role="button">Seleccione un mes</a></p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            <p>Fecha inicial</p>
+                            <input class="form-control" id="example-date-input" type="date" value="2011-08-19" />
+                            <p>Fecha final</p>
+                            <input class="form-control" id="example-date-input" type="date" value="2011-08-19" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-6">
+                    <input v-on:click="filtroMethod" class="btn btn-primary" type="submit" value="Buscar" />
+                </div>
+                <div class="col-md-6">
+                    <input class="btn btn-primary Limpiar" type="submit" value="Limpiar" />
+                </div>
+            </div>
+        </div>
+    </div>   
+    `,
+    computed: {
+        ...Vuex.mapState(['filtro']),
+    },
+    methods: {
+        filtroMethod(){
+            console.log(store.state.filtro);
+        }
+    }
+});
+
 //VueEx
 const store = new Vuex.Store({
     state: {
         actividadesPrimerFiltro: [],
         actividades: [],
-        programas: []
+        programas: [],
+        filtro: {
+            palabraClaveFiltro: '',
+            tipoProgramaFiltro: '',
+            categoriaFiltro: '',
+            facultadFiltro: '',
+            programaFiltro: ''
+        }
     },
     mutations: {
         llamarJsonMutation(state, llamarJsonAction){
