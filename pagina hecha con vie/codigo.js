@@ -13,6 +13,19 @@ function estadoFunction(date){
     }
 }
 
+function as(s){
+    let a=["á","é","í","ó","ú","a","e","i","o","u"];
+    let str="";
+    for(let i=0; i<s.length; i++){
+        let tmp = s[i];
+       for(let x=0; x < a.length-5; x++){
+          if(tmp.toLowerCase() == a[x]){ tmp === tmp.toLowerCase() ? tmp=a[x+5] : tmp=a[x+5].toUpperCase();}
+       }
+       str+=tmp;
+    }
+    return str;
+}
+
 //componentes
 Vue.component('actividades', {
     template: /*html*/
@@ -269,7 +282,9 @@ Vue.component('filtro',{
     },
     methods: {
         filtroMethod(){
-            console.log(store.state.filtro);
+            if(store.state.filtro.palabraClaveFiltro !== ''){
+                console.log(as(store.state.filtro.palabraClaveFiltro));
+            }
         }
     }
 });
