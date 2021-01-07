@@ -171,7 +171,6 @@ Vue.component('ordenar',{
                 }else if(event.target.value == "orden-descendente"){
                     store.state.actividades = store.state.actividades.sort((a, b) => parseFloat(b.fechaInicio) - parseFloat(a.fechaInicio));
                 }
-                store.state.actividadesLimpiar = store.state.actividades;
             }
         }
 
@@ -272,7 +271,7 @@ Vue.component('filtro',{
                     <input v-on:click="filtroMethod" class="btn btn-primary" type="submit" value="Buscar" />
                 </div>
                 <div class="col-md-6">
-                    <input class="btn btn-primary Limpiar" type="submit" value="Limpiar" />
+                    <input v-on:click="limpiarMethod" class="btn btn-primary Limpiar" type="submit" value="Limpiar" />
                 </div>
             </div>
         </div>
@@ -296,8 +295,10 @@ Vue.component('filtro',{
                 store.state.actividades = [];
                 duo = true;
                 tempActividades.forEach( item => {
-                    if(item.contenido.toLowerCase().search(store.state.filtro.palabraClaveFiltro.toLowerCase()) >= 0){
-                        store.state.actividades.push(item);
+                    if(item.contenido){
+                        if(item.contenido.toLowerCase().search(store.state.filtro.palabraClaveFiltro.toLowerCase()) >= 0){
+                            store.state.actividades.push(item);
+                        }
                     }
                 });
             }
@@ -306,21 +307,52 @@ Vue.component('filtro',{
                 store.state.actividades = [];
                 duo = true;
                 tempActividades.forEach( item => {
-                    if(item.tipoPrograma == store.state.filtro.tipoProgramaFiltro){
-                        store.state.actividades.push(item);
+                    if(item.tipoPrograma){
+                        if(item.tipoPrograma == store.state.filtro.tipoProgramaFiltro){
+                            store.state.actividades.push(item);
+                        }
                     }
+                    
                 }); 
             }
-            if(store.state.filtro.tipoProgramaFiltro !== ''){
+            if(store.state.filtro.categoriaFiltro !== ''){
                 validarDuo();
                 store.state.actividades = [];
                 duo = true;
                 tempActividades.forEach( item => {
-                    if(item.tipoPrograma == store.state.filtro.tipoProgramaFiltro){
-                        store.state.actividades.push(item);
+                    if(item.categoria){
+                        if(item.categoria == store.state.filtro.categoriaFiltro){
+                            store.state.actividades.push(item);
+                        }
+                    }  
+                }); 
+            }
+            if(store.state.filtro.facultadFiltro !== ''){
+                validarDuo();
+                store.state.actividades = [];
+                duo = true;
+                tempActividades.forEach( item => {
+                    if(item.facultad){
+                        if(item.facultad.toLowerCase().search(store.state.filtro.facultadFiltro.toLowerCase()) >= 0){
+                            store.state.actividades.push(item);
+                        }
                     }
                 }); 
             }
+            if(store.state.filtro.programaFiltro !== ''){
+                store.state.actividades = [];
+                duo = true;
+                tempActividades.forEach( item => {
+                    if(item.programa){
+                        if(item.programa.toLowerCase().search(store.state.filtro.programaFiltro.toLowerCase()) >= 0){
+                            store.state.actividades.push(item);
+                        }
+                    }
+                });
+            }
+        },
+        limpiarMethod(){
+            store.state.actividades = store.state.actividadesLimpiar;
         }
     }
 });
