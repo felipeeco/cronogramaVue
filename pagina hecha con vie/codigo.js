@@ -41,7 +41,7 @@ Vue.component('actividades', {
                                 </i>
                             </div>
                             <div class="col-md-10 col-lg-10 px-5">
-                                <strong class="titulo">{{ mes(item.fechaInicio) }} {{ dia(item.fechaInicio) }}</strong> 
+                                <strong class="titulo">{{ mes(item.fechaInicio) }} {{ dia(item.fechaInicio) }} de {{ year(item.fechaInicio) }}</strong> 
                                 <span>{{ mes(item.fechaFin) }} {{ dia(item.fechaFin) }} {{ year(item.fechaFin) }}</span>
                             </div>
                         </div>
@@ -171,6 +171,7 @@ Vue.component('ordenar',{
                 }else if(event.target.value == "orden-descendente"){
                     store.state.actividades = store.state.actividades.sort((a, b) => parseFloat(b.fechaInicio) - parseFloat(a.fechaInicio));
                 }
+                store.state.actividadesLimpiar = store.state.actividades;
             }
         }
 
@@ -282,8 +283,43 @@ Vue.component('filtro',{
     },
     methods: {
         filtroMethod(){
+            var tempActividades = store.state.actividadesLimpiar;
+            var duo = false;
+            function validarDuo(){
+                if(duo){
+                    tempActividades = store.state.actividades;
+                }else{
+                    tempActividades = store.state.actividadesLimpiar;
+                }
+            }
             if(store.state.filtro.palabraClaveFiltro !== ''){
-                console.log(as(store.state.filtro.palabraClaveFiltro));
+                store.state.actividades = [];
+                duo = true;
+                tempActividades.forEach( item => {
+                    if(item.contenido.toLowerCase().search(store.state.filtro.palabraClaveFiltro.toLowerCase()) >= 0){
+                        store.state.actividades.push(item);
+                    }
+                });
+            }
+            if(store.state.filtro.tipoProgramaFiltro !== ''){
+                validarDuo();
+                store.state.actividades = [];
+                duo = true;
+                tempActividades.forEach( item => {
+                    if(item.tipoPrograma == store.state.filtro.tipoProgramaFiltro){
+                        store.state.actividades.push(item);
+                    }
+                }); 
+            }
+            if(store.state.filtro.tipoProgramaFiltro !== ''){
+                validarDuo();
+                store.state.actividades = [];
+                duo = true;
+                tempActividades.forEach( item => {
+                    if(item.tipoPrograma == store.state.filtro.tipoProgramaFiltro){
+                        store.state.actividades.push(item);
+                    }
+                }); 
             }
         }
     }
@@ -292,8 +328,8 @@ Vue.component('filtro',{
 //VueEx
 const store = new Vuex.Store({
     state: {
-        actividadesPrimerFiltro: [],
         actividades: [],
+        actividadesLimpiar: [],
         programas: [],
         filtro: {
             palabraClaveFiltro: '',
@@ -311,11 +347,12 @@ const store = new Vuex.Store({
             //filtro por eventos cerrados y abiertos
             llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
                 if(estadoFunction(item.fechaFin)){
-                    state.actividadesPrimerFiltro.push(item);
+                    state.actividades.push(item);
                 }
             });
 
-            state.actividades = state.actividadesPrimerFiltro.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
+            state.actividades = state.actividades.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
+            state.actividadesLimpiar = state.actividades;
         }
     },
     actions: {
