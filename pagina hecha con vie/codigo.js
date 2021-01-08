@@ -159,19 +159,28 @@ Vue.component('actividades', {
 Vue.component('ordenar',{
     template: /*html*/
         `
-        <select class="form-control" @change="ordenarMethod($event)" id="exampleFormControlSelect1">
-            <option selected="selected" value="orden-ascendente">Orden ascendente (fecha de inicio)</option>
-            <option value="orden-descendente">Orden descendente (fecha de inicio)</option>
+        <select class="form-control"  id="exampleFormControlSelect1" :value="ordenarVar" @input="ordenarMethod">
+            <option disabled value="">Ordenar</option>
+            <option>Orden ascendente (fecha de inicio)</option>
+            <option>Orden descendente (fecha de inicio)</option>
         </select>
         `,
+        computed: {
+            ...Vuex.mapState({
+                ordenarVar: state => state.ordenarVar
+            })
+        
+        },
         methods: {
-            ordenarMethod(event){
-                if(event.target.value == "orden-ascendente"){
+           ordenarMethod(e){
+              // console.log(e.target.value);
+               this.$store.commit('ordenarMutation', e.target.value);
+               if(e.target.value == "Orden ascendente (fecha de inicio)"){
                     store.state.actividades = store.state.actividades.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
-                }else if(event.target.value == "orden-descendente"){
+                }else if(e.target.value == "Orden descendente (fecha de inicio)"){
                     store.state.actividades = store.state.actividades.sort((a, b) => parseFloat(b.fechaInicio) - parseFloat(a.fechaInicio));
                 }
-            }
+           }
         }
 
 });
@@ -352,7 +361,13 @@ Vue.component('filtro',{
             }
         },
         limpiarMethod(){
-            store.state.actividades = store.state.actividadesLimpiar;
+            store.state.actividades =  store.state.actividadesLimpiar.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
+            store.state.filtro.palabraClaveFiltro = '';
+            store.state.filtro.tipoProgramaFiltro = '';
+            store.state.filtro.categoriaFiltro = '';
+            store.state.filtro.facultadFiltro = '';
+            store.state.filtro.programaFiltro = '';
+            store.state.ordenarVar = '';
         }
     }
 });
@@ -369,7 +384,8 @@ const store = new Vuex.Store({
             categoriaFiltro: '',
             facultadFiltro: '',
             programaFiltro: ''
-        }
+        },
+        ordenarVar: ''
     },
     mutations: {
         llamarJsonMutation(state, llamarJsonAction){
@@ -385,6 +401,9 @@ const store = new Vuex.Store({
 
             state.actividades = state.actividades.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
             state.actividadesLimpiar = state.actividades;
+        },
+        ordenarMutation(state, ordenarValue){
+            state.ordenarVar = ordenarValue
         }
     },
     actions: {
