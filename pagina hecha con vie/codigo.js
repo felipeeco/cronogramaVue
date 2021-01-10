@@ -12,7 +12,6 @@ function estadoFunction(date){
         return false;
     }
 }
-
 function as(s){
     let a=["á","é","í","ó","ú","a","e","i","o","u"];
     let str="";
@@ -155,7 +154,6 @@ Vue.component('actividades', {
         }
     }
 });
-
 Vue.component('ordenar',{
     template: /*html*/
         `
@@ -184,7 +182,6 @@ Vue.component('ordenar',{
         }
 
 });
-
 Vue.component('filtro',{
     template: /* html */
     `
@@ -368,6 +365,77 @@ Vue.component('filtro',{
             store.state.filtro.facultadFiltro = '';
             store.state.filtro.programaFiltro = '';
             store.state.ordenarVar = '';
+            document.getElementById("customCheck1").checked = false;
+            document.getElementById("customCheck2").checked = false;
+            document.getElementById("customCheck3").checked = false;
+        }
+    }
+});
+Vue.component('periodos',{
+    template: /* html */
+    `
+    <div class="flex-container componente-periodos">
+        <div class="Semestre">
+            <div class="custom-control form-control-lg custom-checkbox">
+                <input class="custom-control-input" v-on:click="periodosMethod" id="customCheck1" type="checkbox" /> 
+                <label class="custom-control-label" v-on:click="periodosMethod" for="customCheck1">Semestre <span class="num">1</span></label>
+            </div>
+            <p>Enero 17-2020<br />
+                Mayo 15-2020
+            </p>
+        </div>
+        <div class="Semestre">
+            <div class="custom-control form-control-lg custom-checkbox">
+                <input class="custom-control-input" v-on:click="periodosMethod" id="customCheck2" type="checkbox" /> 
+                <label class="custom-control-label" v-on:click="periodosMethod" for="customCheck2">Semestre <span class="num">2</span>
+                </label>
+            </div>
+            <p>Agosto 15-2020<br />
+            Diciembre 20-2020
+            </p>
+        </div>
+        <div class="Semestre">
+            <div class="custom-control form-control-lg custom-checkbox">
+                <input class="custom-control-input" v-on:click="periodosMethod" id="customCheck3" type="checkbox" /> 
+                <label class="custom-control-label" v-on:click="periodosMethod" for="customCheck3">Intersemestral</label>
+            </div>
+            <p>Enero 17-2020<br />
+            Mayo 15-2020
+            </p>
+        </div>    
+    </div> 
+    `,
+    methods: {
+        periodosMethod(){
+            store.state.actividades = [];
+            var validador = false;
+            if(document.getElementById("customCheck1").checked){
+                store.state.actividadesSinFiltro.forEach(  item => {
+                    if(item.periodo == "Semestre I"){
+                        store.state.actividades.push(item);
+                    }
+                });
+                validador = true;
+            }
+            if(document.getElementById("customCheck2").checked){
+                store.state.actividadesSinFiltro.forEach(  item => {
+                    if(item.periodo == "Semestre II"){
+                        store.state.actividades.push(item);
+                    }
+                });
+                validador = true;
+            }
+            if(document.getElementById("customCheck3").checked){
+                store.state.actividadesSinFiltro.forEach(  item => {
+                    if(item.periodo == "Intersemestral"){
+                        store.state.actividades.push(item);
+                    }
+                });
+                validador = true;
+            }
+            if(!validador){
+                store.state.actividades = store.state.actividadesLimpiar;
+            }
         }
     }
 });
@@ -375,6 +443,7 @@ Vue.component('filtro',{
 //VueEx
 const store = new Vuex.Store({
     state: {
+        actividadesSinFiltro: [],
         actividades: [],
         actividadesLimpiar: [],
         programas: [],
@@ -389,8 +458,11 @@ const store = new Vuex.Store({
     },
     mutations: {
         llamarJsonMutation(state, llamarJsonAction){
-
+            //programas
             state.programas = llamarJsonAction.BD_programas;
+
+            //actividades sin filtro
+            state.actividadesSinFiltro = llamarJsonAction.Nueva_estructura_proveedor;
 
             //filtro por eventos cerrados y abiertos
             llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
