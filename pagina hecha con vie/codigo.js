@@ -91,7 +91,7 @@ Vue.component('actividades', {
                     </div>
                 </template>
                 <div class="row justify-content-center">
-                    <input type="button" value="Ver más" class="btn btn-primary" @click="mostrarSoloCincoMethod(false)">
+                    <input id="boton-mostrar-mas" type="button" value="Ver más" class="btn btn-primary" @click="mostrarSoloCincoMethod(false)">
                 </div>
             </div>
             <div v-else>
@@ -154,7 +154,7 @@ Vue.component('actividades', {
                     </div>
                 </template>
                 <div class="row justify-content-center">
-                    <input type="button" value="Ver menos" class="btn btn-primary" @click="mostrarSoloCincoMethod(true)">
+                    <input id="boton-mostrar-mas" type="button" value="Ver menos" class="btn btn-primary" @click="mostrarSoloCincoMethod(true)">
                 </div>
             </div>
             <!--
@@ -362,10 +362,10 @@ Vue.component('filtro',{
             </div>
             <div class="form-group row">
                 <div class="col-md-6">
-                    <input v-on:click="filtroMethod" class="btn btn-primary" type="submit" value="Buscar" />
+                    <input v-on:click="filtroMethod" class="btn btn-primary" type="button" value="Buscar" />
                 </div>
                 <div class="col-md-6">
-                    <input v-on:click="limpiarMethod" class="btn btn-primary Limpiar" type="submit" value="Limpiar" />
+                    <input v-on:click="limpiarMethod" class="btn btn-primary Limpiar" type="button" value="Limpiar" />
                 </div>
             </div>
         </div>
@@ -447,6 +447,7 @@ Vue.component('filtro',{
             }
             if(store.state.actividades.length == 0){
                 document.getElementById("mensaje-no-resultados").style.display = "block";
+                document.getElementById("boton-mostrar-mas").style.display = "none";
             }
         },
         limpiarMethod(){
@@ -461,6 +462,8 @@ Vue.component('filtro',{
             document.getElementById("customCheck2").checked = false;
             document.getElementById("customCheck3").checked = false;
             document.getElementById("mensaje-no-resultados").style.display = "none";
+            document.getElementById("boton-mostrar-mas").style.display = "block";
+            store.state.mostrarSoloCinco = true;
         }
     }
 });
@@ -556,20 +559,23 @@ const store = new Vuex.Store({
             //programas
             state.programas = llamarJsonAction.BD_programas;
 
+            //testeo
+            //console.log(llamarJsonAction.Nueva_estructura_proveedor);
+
             //actividades segmentadas
-            if(window.location.pathname.search("estudiantes") >= 0){
+            if(window.location.pathname.toLowerCase().search("estudiantes") >= 0){
                 llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
                     if(item.segmento.search("Estudiante") >= 0){
                         state.actividadesSegmentadas.push(item);
                     }
                 });
-            }else if(window.location.pathname.search("profesores") >= 0){
+            }else if(window.location.pathname.toLowerCase().search("profesores") >= 0){
                 llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
                     if(item.segmento.search("profesor") >= 0){
                         state.actividadesSegmentadas.push(item);
                     }
                 });
-            }else if(window.location.pathname.search("funcionarios") >= 0){
+            }else if(window.location.pathname.toLowerCase().search("funcionarios") >= 0){
                 llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
                     if(item.segmento.search("funcionario") >= 0){
                         state.actividadesSegmentadas.push(item);
@@ -599,7 +605,8 @@ const store = new Vuex.Store({
     },
     actions: {
         llamarJson: async function({ commit }){
-            const data = await fetch('calendario-2021-prueba.json');
+            //const data = await fetch('calendario-2021-prueba.json');
+            const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
             const dataJson = await data.json();
             commit('llamarJsonMutation', dataJson);
         }
