@@ -170,7 +170,6 @@ Vue.component('actividades', {
                 </nav>
             </div>
             -->
-            
         </div>
         `,
     computed: {
@@ -537,6 +536,7 @@ Vue.component('periodos',{
 //VueEx
 const store = new Vuex.Store({
     state: {
+        actividadesSegmentadas: [],
         actividadesSinFiltro: [],
         actividades: [],
         actividadesLimpiar: [],
@@ -556,11 +556,32 @@ const store = new Vuex.Store({
             //programas
             state.programas = llamarJsonAction.BD_programas;
 
+            //actividades segmentadas
+            if(window.location.pathname.search("estudiantes") >= 0){
+                llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
+                    if(item.segmento.search("Estudiante") >= 0){
+                        state.actividadesSegmentadas.push(item);
+                    }
+                });
+            }else if(window.location.pathname.search("profesores") >= 0){
+                llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
+                    if(item.segmento.search("profesor") >= 0){
+                        state.actividadesSegmentadas.push(item);
+                    }
+                });
+            }else if(window.location.pathname.search("funcionarios") >= 0){
+                llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
+                    if(item.segmento.search("funcionario") >= 0){
+                        state.actividadesSegmentadas.push(item);
+                    }
+                });
+            }
+
             //actividades sin filtro
-            state.actividadesSinFiltro = llamarJsonAction.Nueva_estructura_proveedor;
+            state.actividadesSinFiltro = state.actividadesSegmentadas;
 
             //filtro por eventos cerrados y abiertos
-            llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
+            state.actividadesSegmentadas.forEach( item => {
                 if(estadoFunction(item.fechaFin)){
                     state.actividades.push(item);
                 }
