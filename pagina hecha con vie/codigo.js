@@ -30,68 +30,154 @@ Vue.component('actividades', {
     template: /*html*/
         ` 
         <div class="col-lg-8">
-            <template v-for="(item, key) in actividades">
-                <div class="row Programa-especifico">
-                    <div class="col-md-4 col-lg-4 Fecha">
-                        <div class="row">
-                            <div class="col-md-2 col-lg-2">
-                                <i class="far fa-calendar">
-                                    <!--icono-->
-                                </i>
+            <h2 id="mensaje-no-resultados" style="display: none;" class="center">No se han encontrado resultados para esta búsqueda</h2>
+            <div v-if="mostrarSoloCinco">
+                <template v-for="(item, key) in actividades.slice(0, 5)">
+                    <div class="row Programa-especifico">
+                        <div class="col-md-4 col-lg-4 Fecha">
+                            <div class="row">
+                                <div class="col-md-2 col-lg-2">
+                                    <i class="far fa-calendar">
+                                        <!--icono-->
+                                    </i>
+                                </div>
+                                <div class="col-md-10 col-lg-10 px-5">
+                                    <strong class="titulo">{{ mes(item.fechaInicio) }} {{ dia(item.fechaInicio) }} de {{ year(item.fechaInicio) }}</strong> 
+                                    <span>{{ mes(item.fechaFin) }} {{ dia(item.fechaFin) }} {{ year(item.fechaFin) }}</span>
+                                </div>
                             </div>
-                            <div class="col-md-10 col-lg-10 px-5">
-                                <strong class="titulo">{{ mes(item.fechaInicio) }} {{ dia(item.fechaInicio) }} de {{ year(item.fechaInicio) }}</strong> 
-                                <span>{{ mes(item.fechaFin) }} {{ dia(item.fechaFin) }} {{ year(item.fechaFin) }}</span>
+                            <div class="mt-3 txt">
+                                <strong>Tipo de programa</strong> <span>{{ item.tipoPrograma }}</span><br />
+                                <strong>Facultad</strong> <span v-html="programasMethod(item.facultad)"></span><br />
+                                <strong>Programa</strong> 
+                                <span v-html="programasMethod(item.programa)"></span><br />
+                                <strong>Categoria</strong> <span>{{ item.categoria }}</span>
                             </div>
                         </div>
-                        <div class="mt-3 txt">
-                            <strong>Tipo de programa</strong> <span>{{ item.tipoPrograma }}</span><br />
-                            <strong>Facultad</strong> <span v-html="programasMethod(item.facultad)"></span><br />
-                            <strong>Programa</strong> 
-                            <span v-html="programasMethod(item.programa)"></span><br />
-                            <strong>Categoria</strong> <span>{{ item.categoria }}</span>
+                        <div class="col-md-8 col-lg-8 Descripcion">
+                            <p class="titulo">{{ item.contenido }}</p>
+                            <!--
+                            <p class="txt">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                            -->
+                            <!--
+                            <i class="fas fa-map-marker-alt">
+                                
+                            </i>
+                            -->
+                            <!--
+                            <strong>Lugar:</strong> <span class="txt">Universidad del Rosario, Sede, Claustro, Aula Mutis</span><br />
+                            <i class="far fa-calendar">
+                                
+                            </i>
+                            -->
+                            <strong>Fecha de inicio:</strong> <span class="txt">
+                            {{ dia(item.fechaInicio) }} {{ mes(item.fechaInicio) }}, de {{ year(item.fechaInicio) }}
+                            </span><br />
+                            <strong>Fecha de cierre:</strong> <span class="txt">
+                            {{ dia(item.fechaFin) }} {{ mes(item.fechaFin) }}, de {{ year(item.fechaFin) }}
+                            </span><br />
+                            <!--
+                            <i class="far fa-clock">
+                            
+                            </i>
+                    
+                            <strong>Hora:</strong> <span class="txt">De 8:00 a.m. a 12:30 p.m</span>
+                            -->
+                            <div class="row">
+                                <div class="col-lg-3 Semestre_uno"><a href="">{{ item.periodo }}</a></div>
+                                <div class="col-lg-3 Cerrado"><a href="">{{ estado(item.fechaFin) }}</a></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-8 col-lg-8 Descripcion">
-                        <p class="titulo">{{ item.contenido }}</p>
-                        <!--
-                        <p class="txt">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                        -->
-                        <!--
-                        <i class="fas fa-map-marker-alt">
-                            
-                        </i>
-                        -->
-                        <!--
-                        <strong>Lugar:</strong> <span class="txt">Universidad del Rosario, Sede, Claustro, Aula Mutis</span><br />
-                        <i class="far fa-calendar">
-                            
-                        </i>
-                        -->
-                        <strong>Fecha de inicio:</strong> <span class="txt">
-                        {{ dia(item.fechaInicio) }} {{ mes(item.fechaInicio) }}, de {{ year(item.fechaInicio) }}
-                        </span><br />
-                        <strong>Fecha de cierre:</strong> <span class="txt">
-                        {{ dia(item.fechaFin) }} {{ mes(item.fechaFin) }}, de {{ year(item.fechaFin) }}
-                        </span><br />
-                        <!--
-                        <i class="far fa-clock">
-                           
-                        </i>
-                
-                        <strong>Hora:</strong> <span class="txt">De 8:00 a.m. a 12:30 p.m</span>
-                        -->
-                        <div class="row">
-                            <div class="col-lg-3 Semestre_uno"><a href="">{{ item.periodo }}</a></div>
-                            <div class="col-lg-3 Cerrado"><a href="">{{ estado(item.fechaFin) }}</a></div>
-                        </div>
-                    </div>
+                </template>
+                <div class="row justify-content-center">
+                    <input type="button" value="Ver más" class="btn btn-primary" @click="mostrarSoloCincoMethod(false)">
                 </div>
-            </template>
+            </div>
+            <div v-else>
+                <template v-for="(item, key) in actividades">
+                    <div class="row Programa-especifico">
+                        <div class="col-md-4 col-lg-4 Fecha">
+                            <div class="row">
+                                <div class="col-md-2 col-lg-2">
+                                    <i class="far fa-calendar">
+                                        <!--icono-->
+                                    </i>
+                                </div>
+                                <div class="col-md-10 col-lg-10 px-5">
+                                    <strong class="titulo">{{ mes(item.fechaInicio) }} {{ dia(item.fechaInicio) }} de {{ year(item.fechaInicio) }}</strong> 
+                                    <span>{{ mes(item.fechaFin) }} {{ dia(item.fechaFin) }} {{ year(item.fechaFin) }}</span>
+                                </div>
+                            </div>
+                            <div class="mt-3 txt">
+                                <strong>Tipo de programa</strong> <span>{{ item.tipoPrograma }}</span><br />
+                                <strong>Facultad</strong> <span v-html="programasMethod(item.facultad)"></span><br />
+                                <strong>Programa</strong> 
+                                <span v-html="programasMethod(item.programa)"></span><br />
+                                <strong>Categoria</strong> <span>{{ item.categoria }}</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-lg-8 Descripcion">
+                            <p class="titulo">{{ item.contenido }}</p>
+                            <!--
+                            <p class="txt">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                            -->
+                            <!--
+                            <i class="fas fa-map-marker-alt">
+                                
+                            </i>
+                            -->
+                            <!--
+                            <strong>Lugar:</strong> <span class="txt">Universidad del Rosario, Sede, Claustro, Aula Mutis</span><br />
+                            <i class="far fa-calendar">
+                                
+                            </i>
+                            -->
+                            <strong>Fecha de inicio:</strong> <span class="txt">
+                            {{ dia(item.fechaInicio) }} {{ mes(item.fechaInicio) }}, de {{ year(item.fechaInicio) }}
+                            </span><br />
+                            <strong>Fecha de cierre:</strong> <span class="txt">
+                            {{ dia(item.fechaFin) }} {{ mes(item.fechaFin) }}, de {{ year(item.fechaFin) }}
+                            </span><br />
+                            <!--
+                            <i class="far fa-clock">
+                            
+                            </i>
+                    
+                            <strong>Hora:</strong> <span class="txt">De 8:00 a.m. a 12:30 p.m</span>
+                            -->
+                            <div class="row">
+                                <div class="col-lg-3 Semestre_uno"><a href="">{{ item.periodo }}</a></div>
+                                <div class="col-lg-3 Cerrado"><a href="">{{ estado(item.fechaFin) }}</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <div class="row justify-content-center">
+                    <input type="button" value="Ver menos" class="btn btn-primary" @click="mostrarSoloCincoMethod(true)">
+                </div>
+            </div>
+            <!--
+            <div class="row justify-content-center">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+            -->
+            
         </div>
         `,
     computed: {
-        ...Vuex.mapState(['actividades','programas']),
+        ...Vuex.mapState(['actividades','programas', ]),
+        ...Vuex.mapState({
+            mostrarSoloCinco: state => state.mostrarSoloCinco
+        })
     },
     methods: {
         year(date){
@@ -151,6 +237,9 @@ Vue.component('actividades', {
            if(programas){
             return programas.replaceAll(";", "<br />");
            }  
+        },
+        mostrarSoloCincoMethod(e){
+            this.$store.commit('mostrarSoloCincoMutation', e);
         }
     }
 });
@@ -288,6 +377,7 @@ Vue.component('filtro',{
     },
     methods: {
         filtroMethod(){
+            document.getElementById("mensaje-no-resultados").style.display = "none";
             var tempActividades = store.state.actividadesLimpiar;
             var duo = false;
             function validarDuo(){
@@ -356,6 +446,9 @@ Vue.component('filtro',{
                     }
                 });
             }
+            if(store.state.actividades.length == 0){
+                document.getElementById("mensaje-no-resultados").style.display = "block";
+            }
         },
         limpiarMethod(){
             store.state.actividades =  store.state.actividadesLimpiar.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
@@ -368,6 +461,7 @@ Vue.component('filtro',{
             document.getElementById("customCheck1").checked = false;
             document.getElementById("customCheck2").checked = false;
             document.getElementById("customCheck3").checked = false;
+            document.getElementById("mensaje-no-resultados").style.display = "none";
         }
     }
 });
@@ -454,7 +548,8 @@ const store = new Vuex.Store({
             facultadFiltro: '',
             programaFiltro: ''
         },
-        ordenarVar: ''
+        ordenarVar: '',
+        mostrarSoloCinco: true,
     },
     mutations: {
         llamarJsonMutation(state, llamarJsonAction){
@@ -474,8 +569,11 @@ const store = new Vuex.Store({
             state.actividades = state.actividades.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
             state.actividadesLimpiar = state.actividades;
         },
-        ordenarMutation(state, ordenarValue){
-            state.ordenarVar = ordenarValue
+        ordenarMutation(state, value){
+            state.ordenarVar = value
+        },
+        mostrarSoloCincoMutation(state, value){
+            state.mostrarSoloCinco = value
         }
     },
     actions: {
@@ -490,7 +588,30 @@ const store = new Vuex.Store({
 //Vue
 new Vue({
     el: '#caja-vue',
+    data() {
+        return {
+          page: 1,
+          list: [],
+        };
+      },
     store: store,
+    methods: {
+        infiniteHandler($state) {
+          axios.get(api, {
+            params: {
+              page: this.page,
+            },
+          }).then(({ data }) => {
+            if (data.hits.length) {
+              this.page += 1;
+              this.list.push(...data.hits);
+              $state.loaded();
+            } else {
+              $state.complete();
+            }
+          });
+        },
+      },
     created(){
         this.$store.dispatch('llamarJson');
     }
