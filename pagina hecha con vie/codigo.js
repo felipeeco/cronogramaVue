@@ -259,8 +259,7 @@ Vue.component('ordenar',{
         },
         methods: {
            ordenarMethod(e){
-              // console.log(e.target.value);
-               this.$store.commit('ordenarMutation', e.target.value);
+              this.$store.commit('ordenarMutation', e.target.value);
                if(e.target.value == "Orden ascendente (fecha de inicio)"){
                     store.state.actividades = store.state.actividades.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
                 }else if(e.target.value == "Orden descendente (fecha de inicio)"){
