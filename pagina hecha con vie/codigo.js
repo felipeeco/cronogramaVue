@@ -26,6 +26,311 @@ function as(s){
 }
 
 //componentes
+Vue.component('ordenar',{
+    template: /*html*/
+        `
+        <select class="form-control"  id="exampleFormControlSelect1" :value="ordenarVar" @input="ordenarMethod">
+            <option disabled value="">Ordenar</option>
+            <option>Orden ascendente (fecha de inicio)</option>
+            <option>Orden descendente (fecha de inicio)</option>
+        </select>
+        `,
+        computed: {
+            ...Vuex.mapState({
+                ordenarVar: state => state.ordenarVar
+            })
+        
+        },
+        methods: {
+           ordenarMethod(e){
+               if(e.target.value == "Orden descendente (fecha de inicio)" && store.state.ordenDeActivades){
+                    store.state.actividades = store.state.actividades.reverse();
+                    store.state.ordenDeActivades = false;
+               }else if(e.target.value == "Orden ascendente (fecha de inicio)" && !store.state.ordenDeActivades){
+                    store.state.actividades = store.state.actividades.reverse();
+                    store.state.ordenDeActivades = true;
+               }
+           }
+        }
+
+});
+Vue.component('filtro',{
+    template: /* html */
+    `
+    <div class="form Formulario_busqueda">
+        <div class="input-group espacio">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                    <i class="fas fa-search">
+                        <!--icono-->
+                    </i>
+                </button>
+            </div>
+            <input class="form-control" v-model="filtro.palabraClaveFiltro" name="search" placeholder="¿Qué estás buscando?" type="text" />
+            </div>
+            <div class="form-group">
+            <select class="form-control" v-model="filtro.tipoProgramaFiltro">
+                <option disabled value="">Tipo de programa</option>
+                <option>Pregrado</option>
+                <option>Posgrado</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <select class="form-control" v-model="filtro.categoriaFiltro">
+                <option disabled value="">Categoria</option>
+                <option>Cierre académico</option>
+                <option>Comité de idiomas</option>
+                <option>Exámenes finales</option>
+                <option>Homologaciones, reconocimientos y validaciones</option>
+                <option>Inicio y finalización de clases</option>
+                <option>Otras actividades de la vida universitaria</option>
+                <option>Pago de matrículas</option>
+                <option>Proceso de inducción</option>
+                <option>Publicación de grupos cancelados</option>
+                <option>Recesos y vacaciones</option>
+                <option>Registro de asignaturas</option>
+                <option>Reporte de notas</option>
+                <option>Reserva de cupo, re activaciones de cupo y reintegros</option>
+                <option>Retiro de asignaturas</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <select class="form-control" v-model="filtro.facultadFiltro">
+                <option disabled value="">Facultad</option>
+                <option>Escuela de Administración</option>
+                <option>Escuela de Medicina y Ciencias de la Salud</option>
+                <option>Escuela de Ciencias Humanas</option>
+                <option>Facultad de Economía</option>
+                <option>Facultad de Jurisprudencia</option>
+                <option>Facultad de Estudios Internacionales, Políticos y Urbanos</option>
+                <option>Facultad de Ciencias Naturales</option>
+                <option>Facultad de Creación</option>
+                <option>Escuela de Ingeniería, Ciencia y Tecnologí</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="fas fa-search">
+                        <!--icono-->
+                        </i>
+                    </button>
+                </div>
+                <input class="form-control" name="search" v-model="filtro.programaFiltro" placeholder="Programa" type="text" />
+            </div>
+            </div>
+            <div class="form-group">
+            <p><a aria-controls="multiCollapseExample1" aria-expanded="false" class="Fecha" data-toggle="collapse" href="#multiCollapseExample1" role="button">Seleccione un mes</a></p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body"><input class="form-control" id="example-date-input" type="date" value="2011-08-19" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><a aria-controls="multiCollapseExample2" aria-expanded="false" class="Fecha" data-toggle="collapse" href="#multiCollapseExample2" role="button">Seleccione un mes</a></p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            <p>Fecha inicial</p>
+                            <input class="form-control" id="example-date-input" type="date" value="2011-08-19" />
+                            <p>Fecha final</p>
+                            <input class="form-control" id="example-date-input" type="date" value="2011-08-19" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-6">
+                    <input v-on:click="filtroMethod" class="btn btn-primary" type="button" value="Buscar" />
+                </div>
+                <div class="col-md-6">
+                    <input v-on:click="limpiarMethod" class="btn btn-primary Limpiar" type="button" value="Limpiar" />
+                </div>
+            </div>
+        </div>
+    </div>   
+    `,
+    computed: {
+        ...Vuex.mapState(['filtro']),
+    },
+    methods: {
+        filtroMethod(){
+            document.getElementById("mensaje-no-resultados").style.display = "none";
+            var tempActividades = store.state.actividadesLimpiar;
+            var duo = false;
+            function validarDuo(){
+                if(duo){
+                    tempActividades = store.state.actividades;
+                }else{
+                    tempActividades = store.state.actividadesLimpiar;
+                }
+            }
+            if(store.state.filtro.palabraClaveFiltro !== ''){
+                store.state.actividades = [];
+                duo = true;
+                tempActividades.forEach( item => {
+                    if(item.contenido){
+                        if(item.contenido.toLowerCase().search(store.state.filtro.palabraClaveFiltro.toLowerCase()) >= 0){
+                            store.state.actividades.push(item);
+                        }
+                    }
+                });
+            }
+            if(store.state.filtro.tipoProgramaFiltro !== ''){
+                validarDuo();
+                store.state.actividades = [];
+                duo = true;
+                tempActividades.forEach( item => {
+                    if(item.tipoPrograma){
+                        if(item.tipoPrograma == store.state.filtro.tipoProgramaFiltro){
+                            store.state.actividades.push(item);
+                        }
+                    }
+                    
+                }); 
+            }
+            if(store.state.filtro.categoriaFiltro !== ''){
+                validarDuo();
+                store.state.actividades = [];
+                duo = true;
+                tempActividades.forEach( item => {
+                    if(item.categoria){
+                        if(item.categoria == store.state.filtro.categoriaFiltro){
+                            store.state.actividades.push(item);
+                        }
+                    }  
+                }); 
+            }
+            if(store.state.filtro.facultadFiltro !== ''){
+                validarDuo();
+                store.state.actividades = [];
+                duo = true;
+                tempActividades.forEach( item => {
+                    if(item.facultad){
+                        if(item.facultad.toLowerCase().search(store.state.filtro.facultadFiltro.toLowerCase()) >= 0){
+                            store.state.actividades.push(item);
+                        }
+                    }
+                }); 
+            }
+            if(store.state.filtro.programaFiltro !== ''){
+                store.state.actividades = [];
+                duo = true;
+                tempActividades.forEach( item => {
+                    if(item.programa){
+                        if(item.programa.toLowerCase().search(store.state.filtro.programaFiltro.toLowerCase()) >= 0){
+                            store.state.actividades.push(item);
+                        }
+                    }
+                });
+            }
+            if(store.state.actividades.length == 0){
+                document.getElementById("mensaje-no-resultados").style.display = "block";
+                document.getElementById("boton-mostrar-mas").style.display = "none";
+                store.state.usoFiltro = true;
+            }
+        },
+        limpiarMethod(){
+            store.state.actividades =  store.state.actividadesLimpiar.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
+            store.state.filtro.palabraClaveFiltro = '';
+            store.state.filtro.tipoProgramaFiltro = '';
+            store.state.filtro.categoriaFiltro = '';
+            store.state.filtro.facultadFiltro = '';
+            store.state.filtro.programaFiltro = '';
+            store.state.ordenarVar = '';
+            document.getElementById("customCheck1").checked = false;
+            document.getElementById("customCheck2").checked = false;
+            document.getElementById("customCheck3").checked = false;
+            document.getElementById("mensaje-no-resultados").style.display = "none";
+            document.getElementById("boton-mostrar-mas").style.display = "block";
+            store.state.mostrarSoloCinco = true;
+        }
+    }
+});
+Vue.component('periodos',{
+    template: /* html */
+    `
+    <div class="flex-container componente-periodos">
+        <div class="Semestre">
+            <div class="custom-control form-control-lg custom-checkbox">
+                <input class="custom-control-input" v-on:click="periodosMethod" id="customCheck1" type="checkbox" /> 
+                <label class="custom-control-label" v-on:click="periodosMethod" for="customCheck1">Semestre <span class="num">1</span></label>
+            </div>
+            <p>Enero 17-2020<br />
+                Mayo 15-2020
+            </p>
+        </div>
+        <div class="Semestre">
+            <div class="custom-control form-control-lg custom-checkbox">
+                <input class="custom-control-input" v-on:click="periodosMethod" id="customCheck2" type="checkbox" /> 
+                <label class="custom-control-label" v-on:click="periodosMethod" for="customCheck2">Semestre <span class="num">2</span>
+                </label>
+            </div>
+            <p>Agosto 15-2020<br />
+            Diciembre 20-2020
+            </p>
+        </div>
+        <div class="Semestre">
+            <div class="custom-control form-control-lg custom-checkbox">
+                <input class="custom-control-input" v-on:click="periodosMethod" id="customCheck3" type="checkbox" /> 
+                <label class="custom-control-label" v-on:click="periodosMethod" for="customCheck3">Intersemestral</label>
+            </div>
+            <p>Enero 17-2020<br />
+            Mayo 15-2020
+            </p>
+        </div>    
+    </div> 
+    `,
+    methods: {
+        periodosMethod(){
+            document.getElementById("mensaje-no-resultados").style.display = "none";
+            var temporalActividades = [];
+            if(store.state.usoFiltro){
+                temporalActividades = store.state.actividades;
+            }else{
+                temporalActividades = store.state.actividadesLimpiar;
+            }
+            store.state.actividades = [];
+            var validador = false;
+            if(document.getElementById("customCheck1").checked){
+                temporalActividades.forEach(  item => {
+                    if(item.periodo == "Semestre I"){
+                        store.state.actividades.push(item);
+                    }
+                });
+                validador = true;
+            }
+            if(document.getElementById("customCheck2").checked){
+                temporalActividades.forEach(  item => {
+                    if(item.periodo == "Semestre II"){
+                        store.state.actividades.push(item);
+                    }
+                });
+                validador = true;
+            }
+            if(document.getElementById("customCheck3").checked){
+                temporalActividades.forEach(  item => {
+                    if(item.periodo == "Intersemestral"){
+                        store.state.actividades.push(item);
+                    }
+                });
+                validador = true;
+            }
+            if(!validador){
+                store.state.actividades = store.state.actividadesLimpiar;
+            }
+            if(store.state.actividades.length == 0){
+                document.getElementById("mensaje-no-resultados").style.display = "block";
+                document.getElementById("boton-mostrar-mas").style.display = "none";
+            }
+        }
+    }
+});
 Vue.component('actividades', {
     template: /*html*/
         ` 
@@ -242,308 +547,14 @@ Vue.component('actividades', {
         }
     }
 });
-Vue.component('ordenar',{
-    template: /*html*/
-        `
-        <select class="form-control"  id="exampleFormControlSelect1" :value="ordenarVar" @input="ordenarMethod">
-            <option disabled value="">Ordenar</option>
-            <option>Orden ascendente (fecha de inicio)</option>
-            <option>Orden descendente (fecha de inicio)</option>
-        </select>
-        `,
-        computed: {
-            ...Vuex.mapState({
-                ordenarVar: state => state.ordenarVar
-            })
-        
-        },
-        methods: {
-           ordenarMethod(e){
-              // console.log(e.target.value);
-               this.$store.commit('ordenarMutation', e.target.value);
-               if(e.target.value == "Orden ascendente (fecha de inicio)"){
-                    store.state.actividades = store.state.actividades.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
-                }else if(e.target.value == "Orden descendente (fecha de inicio)"){
-                    store.state.actividades = store.state.actividades.sort((a, b) => parseFloat(b.fechaInicio) - parseFloat(a.fechaInicio));
-                }
-           }
-        }
-
-});
-Vue.component('filtro',{
-    template: /* html */
-    `
-    <div class="form Formulario_busqueda">
-        <div class="input-group espacio">
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit">
-                    <i class="fas fa-search">
-                        <!--icono-->
-                    </i>
-                </button>
-            </div>
-            <input class="form-control" v-model="filtro.palabraClaveFiltro" name="search" placeholder="¿Qué estás buscando?" type="text" />
-            </div>
-            <div class="form-group">
-            <select class="form-control" v-model="filtro.tipoProgramaFiltro">
-                <option disabled value="">Tipo de programa</option>
-                <option>Pregrado</option>
-                <option>Posgrado</option>
-            </select>
-            </div>
-            <div class="form-group">
-            <select class="form-control" v-model="filtro.categoriaFiltro">
-                <option disabled value="">Categoria</option>
-                <option>Cierre académico</option>
-                <option>Comité de idiomas</option>
-                <option>Exámenes finales</option>
-                <option>Homologaciones, reconocimientos y validaciones</option>
-                <option>Inicio y finalización de clases</option>
-                <option>Otras actividades de la vida universitaria</option>
-                <option>Pago de matrículas</option>
-                <option>Proceso de inducción</option>
-                <option>Publicación de grupos cancelados</option>
-                <option>Recesos y vacaciones</option>
-                <option>Registro de asignaturas</option>
-                <option>Reporte de notas</option>
-                <option>Reserva de cupo, re activaciones de cupo y reintegros</option>
-                <option>Retiro de asignaturas</option>
-            </select>
-            </div>
-            <div class="form-group">
-            <select class="form-control" v-model="filtro.facultadFiltro">
-                <option disabled value="">Facultad</option>
-                <option>Escuela de Administración</option>
-                <option>Escuela de Medicina y Ciencias de la Salud</option>
-                <option>Escuela de Ciencias Humanas</option>
-                <option>Facultad de Economía</option>
-                <option>Facultad de Jurisprudencia</option>
-                <option>Facultad de Estudios Internacionales, Políticos y Urbanos</option>
-                <option>Facultad de Ciencias Naturales</option>
-                <option>Facultad de Creación</option>
-                <option>Escuela de Ingeniería, Ciencia y Tecnologí</option>
-            </select>
-            </div>
-            <div class="form-group">
-            <div class="input-group">
-                <div class="input-group-btn">
-                    <button class="btn btn-default" type="submit">
-                        <i class="fas fa-search">
-                        <!--icono-->
-                        </i>
-                    </button>
-                </div>
-                <input class="form-control" name="search" v-model="filtro.programaFiltro" placeholder="Programa" type="text" />
-            </div>
-            </div>
-            <div class="form-group">
-            <p><a aria-controls="multiCollapseExample1" aria-expanded="false" class="Fecha" data-toggle="collapse" href="#multiCollapseExample1" role="button">Seleccione un mes</a></p>
-            <div class="row">
-                <div class="col">
-                    <div class="collapse multi-collapse" id="multiCollapseExample1">
-                        <div class="card card-body"><input class="form-control" id="example-date-input" type="date" value="2011-08-19" /></div>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <p><a aria-controls="multiCollapseExample2" aria-expanded="false" class="Fecha" data-toggle="collapse" href="#multiCollapseExample2" role="button">Seleccione un mes</a></p>
-                <div class="row">
-                    <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
-                        <div class="card card-body">
-                            <p>Fecha inicial</p>
-                            <input class="form-control" id="example-date-input" type="date" value="2011-08-19" />
-                            <p>Fecha final</p>
-                            <input class="form-control" id="example-date-input" type="date" value="2011-08-19" />
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-md-6">
-                    <input v-on:click="filtroMethod" class="btn btn-primary" type="button" value="Buscar" />
-                </div>
-                <div class="col-md-6">
-                    <input v-on:click="limpiarMethod" class="btn btn-primary Limpiar" type="button" value="Limpiar" />
-                </div>
-            </div>
-        </div>
-    </div>   
-    `,
-    computed: {
-        ...Vuex.mapState(['filtro']),
-    },
-    methods: {
-        filtroMethod(){
-            document.getElementById("mensaje-no-resultados").style.display = "none";
-            var tempActividades = store.state.actividadesLimpiar;
-            var duo = false;
-            function validarDuo(){
-                if(duo){
-                    tempActividades = store.state.actividades;
-                }else{
-                    tempActividades = store.state.actividadesLimpiar;
-                }
-            }
-            if(store.state.filtro.palabraClaveFiltro !== ''){
-                store.state.actividades = [];
-                duo = true;
-                tempActividades.forEach( item => {
-                    if(item.contenido){
-                        if(item.contenido.toLowerCase().search(store.state.filtro.palabraClaveFiltro.toLowerCase()) >= 0){
-                            store.state.actividades.push(item);
-                        }
-                    }
-                });
-            }
-            if(store.state.filtro.tipoProgramaFiltro !== ''){
-                validarDuo();
-                store.state.actividades = [];
-                duo = true;
-                tempActividades.forEach( item => {
-                    if(item.tipoPrograma){
-                        if(item.tipoPrograma == store.state.filtro.tipoProgramaFiltro){
-                            store.state.actividades.push(item);
-                        }
-                    }
-                    
-                }); 
-            }
-            if(store.state.filtro.categoriaFiltro !== ''){
-                validarDuo();
-                store.state.actividades = [];
-                duo = true;
-                tempActividades.forEach( item => {
-                    if(item.categoria){
-                        if(item.categoria == store.state.filtro.categoriaFiltro){
-                            store.state.actividades.push(item);
-                        }
-                    }  
-                }); 
-            }
-            if(store.state.filtro.facultadFiltro !== ''){
-                validarDuo();
-                store.state.actividades = [];
-                duo = true;
-                tempActividades.forEach( item => {
-                    if(item.facultad){
-                        if(item.facultad.toLowerCase().search(store.state.filtro.facultadFiltro.toLowerCase()) >= 0){
-                            store.state.actividades.push(item);
-                        }
-                    }
-                }); 
-            }
-            if(store.state.filtro.programaFiltro !== ''){
-                store.state.actividades = [];
-                duo = true;
-                tempActividades.forEach( item => {
-                    if(item.programa){
-                        if(item.programa.toLowerCase().search(store.state.filtro.programaFiltro.toLowerCase()) >= 0){
-                            store.state.actividades.push(item);
-                        }
-                    }
-                });
-            }
-            if(store.state.actividades.length == 0){
-                document.getElementById("mensaje-no-resultados").style.display = "block";
-                document.getElementById("boton-mostrar-mas").style.display = "none";
-            }
-        },
-        limpiarMethod(){
-            store.state.actividades =  store.state.actividadesLimpiar.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
-            store.state.filtro.palabraClaveFiltro = '';
-            store.state.filtro.tipoProgramaFiltro = '';
-            store.state.filtro.categoriaFiltro = '';
-            store.state.filtro.facultadFiltro = '';
-            store.state.filtro.programaFiltro = '';
-            store.state.ordenarVar = '';
-            document.getElementById("customCheck1").checked = false;
-            document.getElementById("customCheck2").checked = false;
-            document.getElementById("customCheck3").checked = false;
-            document.getElementById("mensaje-no-resultados").style.display = "none";
-            document.getElementById("boton-mostrar-mas").style.display = "block";
-            store.state.mostrarSoloCinco = true;
-        }
-    }
-});
-Vue.component('periodos',{
-    template: /* html */
-    `
-    <div class="flex-container componente-periodos">
-        <div class="Semestre">
-            <div class="custom-control form-control-lg custom-checkbox">
-                <input class="custom-control-input" v-on:click="periodosMethod" id="customCheck1" type="checkbox" /> 
-                <label class="custom-control-label" v-on:click="periodosMethod" for="customCheck1">Semestre <span class="num">1</span></label>
-            </div>
-            <p>Enero 17-2020<br />
-                Mayo 15-2020
-            </p>
-        </div>
-        <div class="Semestre">
-            <div class="custom-control form-control-lg custom-checkbox">
-                <input class="custom-control-input" v-on:click="periodosMethod" id="customCheck2" type="checkbox" /> 
-                <label class="custom-control-label" v-on:click="periodosMethod" for="customCheck2">Semestre <span class="num">2</span>
-                </label>
-            </div>
-            <p>Agosto 15-2020<br />
-            Diciembre 20-2020
-            </p>
-        </div>
-        <div class="Semestre">
-            <div class="custom-control form-control-lg custom-checkbox">
-                <input class="custom-control-input" v-on:click="periodosMethod" id="customCheck3" type="checkbox" /> 
-                <label class="custom-control-label" v-on:click="periodosMethod" for="customCheck3">Intersemestral</label>
-            </div>
-            <p>Enero 17-2020<br />
-            Mayo 15-2020
-            </p>
-        </div>    
-    </div> 
-    `,
-    methods: {
-        periodosMethod(){
-            document.getElementById("mensaje-no-resultados").style.display = "none";
-            var temporalActividades = [];
-            var validador = false;
-            if(document.getElementById("customCheck1").checked){
-                store.state.actividades.forEach(  item => {
-                    if(item.periodo == "Semestre I"){
-                        temporalActividades.push(item);
-                    }
-                });
-                validador = true;
-            }
-            if(document.getElementById("customCheck2").checked){
-                store.state.actividades.forEach(  item => {
-                    if(item.periodo == "Semestre II"){
-                        temporalActividades.push(item);
-                    }
-                });
-                validador = true;
-            }
-            if(document.getElementById("customCheck3").checked){
-                store.state.actividades.forEach(  item => {
-                    if(item.periodo == "Intersemestral"){
-                        temporalActividades.push(item);
-                    }
-                });
-                validador = true;
-            }
-            if(validador){
-                store.state.actividades = temporalActividades;
-            }
-        }
-    }
-});
 
 //VueEx
 const store = new Vuex.Store({
     state: {
         actividadesSegmentadas: [],
-        actividadesSinFiltro: [],
         actividades: [],
         actividadesLimpiar: [],
+        usoFiltro: false,
         programas: [],
         filtro: {
             palabraClaveFiltro: '',
@@ -553,6 +564,7 @@ const store = new Vuex.Store({
             programaFiltro: ''
         },
         ordenarVar: '',
+        ordenDeActivades: true, //true es ascedente,
         mostrarSoloCinco: true,
     },
     mutations: {
@@ -583,9 +595,6 @@ const store = new Vuex.Store({
                     }
                 });
             }
-
-            //actividades sin filtro
-            state.actividadesSinFiltro = state.actividadesSegmentadas;
 
             //filtro por eventos cerrados y abiertos
             state.actividadesSegmentadas.forEach( item => {
@@ -624,23 +633,6 @@ new Vue({
         };
       },
     store: store,
-    methods: {
-        infiniteHandler($state) {
-          axios.get(api, {
-            params: {
-              page: this.page,
-            },
-          }).then(({ data }) => {
-            if (data.hits.length) {
-              this.page += 1;
-              this.list.push(...data.hits);
-              $state.loaded();
-            } else {
-              $state.complete();
-            }
-          });
-        },
-      },
     created(){
         this.$store.dispatch('llamarJson');
     }
