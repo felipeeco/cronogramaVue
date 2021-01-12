@@ -316,6 +316,7 @@ Vue.component('periodos',{
             if(document.getElementById("customCheck3").checked){
                 temporalActividades.forEach(  item => {
                     if(item.periodo == "Intersemestral"){
+                        console.log(store.state.actividades);
                         store.state.actividades.push(item);
                     }
                 });
@@ -396,7 +397,7 @@ Vue.component('actividades', {
                     </div>
                 </template>
                 <div class="row justify-content-center">
-                    <input id="boton-mostrar-mas" type="button" value="Ver más" class="btn btn-primary" @click="mostrarSoloCincoMethod(false)">
+                    <input v-if="actividades.length > 5" id="boton-mostrar-mas" type="button" value="Ver más" class="btn btn-primary" @click="mostrarSoloCincoMethod(false)">
                 </div>
             </div>
             <div v-else>
