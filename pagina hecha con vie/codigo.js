@@ -361,7 +361,8 @@ Vue.component('actividades', {
                             </div>
                         </div>
                         <div class="col-md-8 col-lg-8 Descripcion">
-                            <p class="titulo">{{ item.contenido }}</p>
+                            <p class="titulo">{{ item.nombre}}</p>
+                            <p>{{ item.contenido}}</p>
                             <!--
                             <p class="txt">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                             -->
@@ -529,7 +530,7 @@ Vue.component('actividades', {
               }
         },
         dia(date){
-            return date.substring(8);
+            return date.substring(8,10);
         },
         estado(date){
             if(estadoFunction(date)){
@@ -570,27 +571,21 @@ const store = new Vuex.Store({
     },
     mutations: {
         llamarJsonMutation(state, llamarJsonAction){
-            //programas
-            state.programas = llamarJsonAction.BD_programas;
-
-            //testeo
-            //console.log(llamarJsonAction.Nueva_estructura_proveedor);
-
             //actividades segmentadas
             if(window.location.pathname.toLowerCase().search("estudiantes") >= 0){
-                llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
+                llamarJsonAction.Actividades.forEach( item => {
                     if(item.segmento.search("Estudiante") >= 0){
                         state.actividadesSegmentadas.push(item);
                     }
                 });
             }else if(window.location.pathname.toLowerCase().search("profesores") >= 0){
-                llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
+                llamarJsonAction.Actividades.forEach( item => {
                     if(item.segmento.search("profesor") >= 0){
                         state.actividadesSegmentadas.push(item);
                     }
                 });
             }else if(window.location.pathname.toLowerCase().search("funcionarios") >= 0){
-                llamarJsonAction.Nueva_estructura_proveedor.forEach( item => {
+                llamarJsonAction.Actividades.forEach( item => {
                     if(item.segmento.search("funcionario") >= 0){
                         state.actividadesSegmentadas.push(item);
                     }
