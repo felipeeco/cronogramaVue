@@ -503,34 +503,35 @@ Vue.component('periodos',{
     `,
     methods: {
         periodosMethod(){
-            store.state.actividades = [];
+            document.getElementById("mensaje-no-resultados").style.display = "none";
+            var temporalActividades = [];
             var validador = false;
             if(document.getElementById("customCheck1").checked){
-                store.state.actividadesSinFiltro.forEach(  item => {
+                store.state.actividades.forEach(  item => {
                     if(item.periodo == "Semestre I"){
-                        store.state.actividades.push(item);
+                        temporalActividades.push(item);
                     }
                 });
                 validador = true;
             }
             if(document.getElementById("customCheck2").checked){
-                store.state.actividadesSinFiltro.forEach(  item => {
+                store.state.actividades.forEach(  item => {
                     if(item.periodo == "Semestre II"){
-                        store.state.actividades.push(item);
+                        temporalActividades.push(item);
                     }
                 });
                 validador = true;
             }
             if(document.getElementById("customCheck3").checked){
-                store.state.actividadesSinFiltro.forEach(  item => {
+                store.state.actividades.forEach(  item => {
                     if(item.periodo == "Intersemestral"){
-                        store.state.actividades.push(item);
+                        temporalActividades.push(item);
                     }
                 });
                 validador = true;
             }
-            if(!validador){
-                store.state.actividades = store.state.actividadesLimpiar;
+            if(validador){
+                store.state.actividades = temporalActividades;
             }
         }
     }
@@ -605,8 +606,8 @@ const store = new Vuex.Store({
     },
     actions: {
         llamarJson: async function({ commit }){
-            //const data = await fetch('calendario-2021-prueba.json');
-            const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
+            const data = await fetch('calendario-2021-prueba.json');
+           // const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
             const dataJson = await data.json();
             commit('llamarJsonMutation', dataJson);
         }
