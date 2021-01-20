@@ -7,7 +7,7 @@
             "fechaInicio": "2021-01-20 00:00",
             "fechaFin": "2021-01-21 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Asignación de Espacios Físicos  y Publicación de Salones",
+            "categoria": "Asignación de Espacios Físicos  y Publicación de Salones",
             "contenido": "Asignación de Salones Sede Claustro"
         },
         {
@@ -17,7 +17,7 @@
             "fechaInicio": "2021-01-20 00:00",
             "fechaFin": "2021-01-21 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Asignación de Espacios Físicos  y Publicación de Salones",
+            "categoria": "Asignación de Espacios Físicos  y Publicación de Salones",
             "contenido": "Asignación de Salones Sede Quinta Mutis"
         },
         {
@@ -27,7 +27,7 @@
             "fechaInicio": "2021-01-20 00:00",
             "fechaFin": "2021-01-21 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Asignación de Espacios Físicos  y Publicación de Salones"
+            "categoria": "Asignación de Espacios Físicos  y Publicación de Salones"
         },
         {
             "segmento": "Profesor;funcionario",
@@ -36,7 +36,7 @@
             "fechaInicio": "2021-06-08 00:00",
             "fechaFin": "2021-06-08 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Asignación de Espacios Físicos  y Publicación de Salones",
+            "categoria": "Asignación de Espacios Físicos  y Publicación de Salones",
             "contenido": "Asignación de Salones Sede Claustro"
         },
         {
@@ -46,7 +46,7 @@
             "fechaInicio": "2021-06-08 00:00",
             "fechaFin": "2021-06-08 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Asignación de Espacios Físicos  y Publicación de Salones",
+            "categoria": "Asignación de Espacios Físicos  y Publicación de Salones",
             "contenido": "Asignación de Salones Sede Quinta Mutis"
         },
         {
@@ -56,7 +56,7 @@
             "fechaInicio": "2021-06-08 00:00",
             "fechaFin": "2021-06-08 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Asignación de Espacios Físicos  y Publicación de Salones",
+            "categoria": "Asignación de Espacios Físicos  y Publicación de Salones",
             "contenido": "Asignación de Salones Sede Norte"
         },
         {
@@ -66,7 +66,7 @@
             "fechaInicio": "2021-07-21 00:00",
             "fechaFin": "2021-07-22 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Asignación de Espacios Físicos  y Publicación de Salones",
+            "categoria": "Asignación de Espacios Físicos  y Publicación de Salones",
             "contenido": "Asignación de Salones Sede Claustro"
         },
         {
@@ -76,7 +76,7 @@
             "fechaInicio": "2021-07-21 00:00",
             "fechaFin": "2021-07-22 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Asignación de Espacios Físicos  y Publicación de Salones",
+            "categoria": "Asignación de Espacios Físicos  y Publicación de Salones",
             "contenido": "Asignación de Salones Sede Norte"
         },
         {
@@ -86,7 +86,7 @@
             "fechaInicio": "2021-07-21 00:00",
             "fechaFin": "2021-07-22 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Asignación de Espacios Físicos  y Publicación de Salones",
+            "categoria": "Asignación de Espacios Físicos  y Publicación de Salones",
             "contenido": "Asignación de Salones Sede Quinta Mutis"
         },
         {
@@ -98,7 +98,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Medicina 1-6 (2020)"
         },
         {
@@ -110,7 +110,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre Académico Medicina 1-6 (2020)"
         },
         {
@@ -122,7 +122,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 10 (2020)"
         },
         {
@@ -134,7 +134,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 11 (Internado 1) (2020)"
         },
         {
@@ -146,7 +146,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 9 (2020)"
         },
         {
@@ -158,7 +158,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre académico Estudiantes Medicina 11 (Internado 1)(2020)"
         },
         {
@@ -170,7 +170,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre académico Estudiantes Medicina 10 (2020)"
         },
         {
@@ -182,7 +182,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre académico Estudiantes Medicina 9 (2020)"
         },
         {
@@ -192,7 +192,7 @@
             "fechaInicio": "2020-11-27 00:00",
             "fechaFin": "2020-11-27 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Contratación y nómina descarga la oferta en el reporte de UXXI para contratación de profesores nuevos-reintegros y extranjeros"
         },
         {
@@ -202,7 +202,7 @@
             "fechaInicio": "2020-11-30 00:00",
             "fechaFin": "2020-12-07 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Solicitud y recepción de documentos de calificación y contratación a profesores nuevos"
         },
         {
@@ -212,7 +212,7 @@
             "fechaInicio": "2020-12-09 00:00",
             "fechaFin": "2020-12-11 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Contratación y Nómina precalifica las hojas de vida y remite la información a las Facultades para Comite de Calificación."
         },
         {
@@ -222,7 +222,7 @@
             "fechaInicio": "2020-12-14 00:00",
             "fechaFin": "2020-12-15 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Unidades Académicas realizan comité de calificación de hojas de vida y reporta a Contratación el escalafón definitivo"
         },
         {
@@ -232,7 +232,7 @@
             "fechaInicio": "2021-01-13 00:00",
             "fechaFin": "2021-01-13 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": " El Área de Contratación y Nómina descarga desde UXXI la oferta definitiva para elaboración de contratos"
         },
         {
@@ -242,7 +242,7 @@
             "fechaInicio": "2021-01-18 00:00",
             "fechaFin": "2021-01-20 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Se envía por contratación electrónica los documentos y contratos para firma del profesor con el fin de legalizar su vinculación"
         },
         {
@@ -252,7 +252,7 @@
             "fechaInicio": "2021-01-29 00:00",
             "fechaFin": "2021-02-02 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Se realiza el cargue de información en Queryx para pago 1ra quincena de febrero"
         },
         {
@@ -262,7 +262,7 @@
             "fechaInicio": "2021-05-04 00:00",
             "fechaFin": "2021-05-04 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Contratación y nómina descarga la oferta en el reporte de UXXI para contratación de profesores nuevos-reintegros y extranjeros"
         },
         {
@@ -272,7 +272,7 @@
             "fechaInicio": "2021-05-04 00:00",
             "fechaFin": "2021-05-07 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Solicitud y recepción de documentos de calificación y contratación a profesores nuevos"
         },
         {
@@ -282,7 +282,7 @@
             "fechaInicio": "2021-05-10 00:00",
             "fechaFin": "2021-05-13 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Contratación y Nómina precalifica las hojas de vida y remite la información a las Facultades para Comite de Calificación."
         },
         {
@@ -292,7 +292,7 @@
             "fechaInicio": "2021-05-14 00:00",
             "fechaFin": "2021-05-18 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Unidades Académicas realizan comité de calificación de hojas de vida y reporta a Contratación el escalafón definitivo"
         },
         {
@@ -302,7 +302,7 @@
             "fechaInicio": "2021-05-19 00:00",
             "fechaFin": "2021-05-19 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": " El Área de Contratación y Nómina descarga desde UXXI la oferta definitiva para elaboración de contratos"
         },
         {
@@ -312,7 +312,7 @@
             "fechaInicio": "2021-05-24 00:00",
             "fechaFin": "2021-05-26 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Se envía por contratación electrónica los documentos y contratos para firma del profesor con el fin de legalizar su vinculación"
         },
         {
@@ -322,7 +322,7 @@
             "fechaInicio": "2021-05-28 00:00",
             "fechaFin": "2021-05-28 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Contratación y nómina descarga la oferta en el reporte de UXXI para contratación de profesores nuevos-reintegros y extranjeros"
         },
         {
@@ -332,7 +332,7 @@
             "fechaInicio": "2021-05-31 00:00",
             "fechaFin": "2021-06-04 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Solicitud y recepción de documentos de calificación y contratación a profesores nuevos"
         },
         {
@@ -342,7 +342,7 @@
             "fechaInicio": "2021-06-08 00:00",
             "fechaFin": "2021-06-15 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Contratación y Nómina precalifica las hojas de vida y remite la información a las Facultades para Comite de Calificación."
         },
         {
@@ -352,7 +352,7 @@
             "fechaInicio": "2021-06-10 00:00",
             "fechaFin": "2021-06-11 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Se realiza el cargue de información en Queryx para pago 2da quincena de junio"
         },
         {
@@ -362,7 +362,7 @@
             "fechaInicio": "2021-06-17 00:00",
             "fechaFin": "2021-06-18 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Unidades Académicas realizan comité de calificación de hojas de vida y reporta a Contratación el escalafón definitivo"
         },
         {
@@ -372,7 +372,7 @@
             "fechaInicio": "2021-07-12 00:00",
             "fechaFin": "2021-07-12 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": " El Área de Contratación y Nómina descarga desde UXXI la oferta definitiva para elaboración de contratos"
         },
         {
@@ -382,7 +382,7 @@
             "fechaInicio": "2021-07-15 00:00",
             "fechaFin": "2021-07-19 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Se envía por contratación electrónica los documentos y contratos para firma del profesor con el fin de legalizar su vinculación"
         },
         {
@@ -392,7 +392,7 @@
             "fechaInicio": "2021-07-30 00:00",
             "fechaFin": "2021-08-03 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Se realiza el cargue de información en Queryx para pago 1ra quincena de agosto"
         },
         {
@@ -402,7 +402,7 @@
             "fechaInicio": "2021-09-20 00:00",
             "fechaFin": "2021-09-30 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Recepción de documentos para recategorización HC"
         },
         {
@@ -412,7 +412,7 @@
             "fechaInicio": "2021-10-01 00:00",
             "fechaFin": "2021-10-30 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Contratación realiza la Precalificación de hojas de vida  y remite la información a las Facultades para Comites de Calificación."
         },
         {
@@ -422,7 +422,7 @@
             "fechaInicio": "2021-11-02 00:00",
             "fechaFin": "2021-11-05 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "UA realizan comité de recategorización"
         },
         {
@@ -432,7 +432,7 @@
             "fechaInicio": "2021-11-10 00:00",
             "fechaFin": "2021-11-12 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Contratación",
+            "categoria": "Contratación",
             "contenido": "Contratación informa mediante correo el estado definitivo de la recategorización a cada profesor"
         },
         {
@@ -444,7 +444,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "English Area",
+            "categoria": "English Area",
             "contenido": "Inmersión en Inglés "
         },
         {
@@ -456,7 +456,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "English Area",
+            "categoria": "English Area",
             "contenido": "Inmersión en Inglés "
         },
         {
@@ -468,7 +468,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Exámenes finales",
+            "categoria": "Exámenes finales",
             "contenido": "Período de Evaluaciones Finales Pregrado Medicina 7 (2020)"
         },
         {
@@ -480,7 +480,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Exámenes finales",
+            "categoria": "Exámenes finales",
             "contenido": "Período de Evaluaciones Finales Pregrado Medicina 8 (2020)"
         },
         {
@@ -492,7 +492,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ESTUDIOS UNIVERSITARIOS EN CIENCIAS SOCIALES;ESTUDIOS UNIVERSITARIOS EN MEDICINA;ESTUDIOS UNIVERSITARIOS EN CIENCIAS NATURALES Y DE LA SALUD;ESTUDIOS UNIVERSITARIOS EN REHABILITACIÓN;ESTUDIOS UNIVERSITARIOS EN CIENCIAS DE LA SALUD;FORTALECIMIENTO ACADÉMICO EN PSICOLOGIA Y CS NATURALES;FORTALECIMIENTO ACADÉMICO EN CIENCIAS SOCIALES;FORTALECIMIENTO ACADÉMICO PARA REHABILITACIÓN;FORTALECIMIENTO ACADÉMICO EN MEDICINA",
-            "categoria ": "Exámenes finales",
+            "categoria": "Exámenes finales",
             "contenido": "Período de Evaluaciones Finales todos los programas de Estudios Universitarios y Fortalecimiento Académico"
         },
         {
@@ -504,7 +504,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELCTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Exámenes finales",
+            "categoria": "Exámenes finales",
             "contenido": "Período de Evaluaciones Finales  Todos los Programas "
         },
         {
@@ -516,7 +516,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Homologaciones, Reconocimientos y Validaciones",
+            "categoria": "Homologaciones, Reconocimientos y Validaciones",
             "contenido": "Período para solicitud de exámenes de validación"
         },
         {
@@ -528,7 +528,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Homologaciones, Reconocimientos y Validaciones",
+            "categoria": "Homologaciones, Reconocimientos y Validaciones",
             "contenido": "Período para solicitud de homologaciones y reconocimientos de otros períodos"
         },
         {
@@ -540,7 +540,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases estudiantes  Medicina 12 (Internado 2)"
         },
         {
@@ -552,7 +552,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases estudiantes  Medicina 11 (Internado 1)"
         },
         {
@@ -564,7 +564,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Homologaciones, Reconocimientos y Validaciones",
+            "categoria": "Homologaciones, Reconocimientos y Validaciones",
             "contenido": "Período para solicitud de homologaciones y reconocimientos del período que culmina"
         },
         {
@@ -576,7 +576,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Homologaciones, Reconocimientos y Validaciones",
+            "categoria": "Homologaciones, Reconocimientos y Validaciones",
             "contenido": "Período para solicitud de exámenes de validación"
         },
         {
@@ -588,7 +588,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases Todos los Programas "
         },
         {
@@ -600,7 +600,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": "Retiro de asignaturas con beneficio económico estudiantes Medicina 12"
         },
         {
@@ -612,7 +612,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": "Retiro de asignaturas con beneficio económico estudiantes Medicina 11 (Internado 1)"
         },
         {
@@ -624,7 +624,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ESTUDIOS UNIVERSITARIOS EN CIENCIAS SOCIALES;ESTUDIOS UNIVERSITARIOS EN MEDICINA;ESTUDIOS UNIVERSITARIOS EN CIENCIAS NATURALES Y DE LA SALUD;ESTUDIOS UNIVERSITARIOS EN REHABILITACIÓN;ESTUDIOS UNIVERSITARIOS EN CIENCIAS DE LA SALUD;FORTALECIMIENTO ACADÉMICO EN PSICOLOGIA Y CS NATURALES;FORTALECIMIENTO ACADÉMICO EN CIENCIAS SOCIALES;FORTALECIMIENTO ACADÉMICO PARA REHABILITACIÓN;FORTALECIMIENTO ACADÉMICO EN MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases todos los programas de Estudios Universitarios y Fortalecimiento Académico"
         },
         {
@@ -636,7 +636,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "FISIOTERAPIA;FONOAUDIOLOGÍA;TERAPIA OCUPACIONAL",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases estudiantes en práctica Programas de Fonoaudiología, Fisioterapia y Terapia Ocupacional "
         },
         {
@@ -648,7 +648,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases estudiantes  Medicina (1-6)"
         },
         {
@@ -660,7 +660,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases estudiantes  Medicina 10"
         },
         {
@@ -672,7 +672,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Inicio y finalización de clases",
+            "categoria": "Inicio y finalización de clases",
             "contenido": "Último día del Período Académico (incluye Evaluaciones finales) Pregrado Medicina 7 (2020)"
         },
         {
@@ -684,7 +684,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Inicio y finalización de clases",
+            "categoria": "Inicio y finalización de clases",
             "contenido": "Último día del Período Académico (incluye Evaluaciones finales) Pregrado Medicina 8 (2020)"
         },
         {
@@ -696,7 +696,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": "Retiro de asignaturas de todos los programas con beneficio económico"
         },
         {
@@ -708,7 +708,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": "Retiro de asignaturas con beneficio económico estudiantes Medicina 1-6"
         },
         {
@@ -718,7 +718,7 @@
             "fechaInicio": "2021-02-03 00:00",
             "fechaFin": "2021-03-28 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Modificaciones curriculares",
+            "categoria": "Modificaciones curriculares",
             "contenido": "Presentación de solicitudes de Escuelas y Facultades a Dirección Académica de modificaciones curriculares para ajustes en planes de estudio. "
         },
         {
@@ -728,7 +728,7 @@
             "fechaInicio": "2021-04-10 00:00",
             "fechaFin": "2021-05-03 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Modificaciones curriculares",
+            "categoria": "Modificaciones curriculares",
             "contenido": "Realización de ajustes a los grafos por parte de Registro y Control Académico."
         },
         {
@@ -738,7 +738,7 @@
             "fechaInicio": "2021-03-15 00:00",
             "fechaFin": "2021-04-10 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Modificaciones curriculares",
+            "categoria": "Modificaciones curriculares",
             "contenido": "Validación de información entre Dirección Académica a las Escuelas y Facultades  a Registro y Control Académico, respecto a los cambios aprobados en cada programa."
         },
         {
@@ -750,7 +750,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Otras Actividades de la Vida Universitaria",
+            "categoria": "Otras Actividades de la Vida Universitaria",
             "contenido": "Consulta médica inicial"
         },
         {
@@ -762,7 +762,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Otras Actividades de la Vida Universitaria",
+            "categoria": "Otras Actividades de la Vida Universitaria",
             "contenido": "Consulta médica inicial"
         },
         {
@@ -774,7 +774,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Otras Actividades de la Vida Universitaria",
+            "categoria": "Otras Actividades de la Vida Universitaria",
             "contenido": "Semana del Bienestar"
         },
         {
@@ -786,7 +786,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Otras Actividades de la Vida Universitaria",
+            "categoria": "Otras Actividades de la Vida Universitaria",
             "contenido": "Semana del Bienestar"
         },
         {
@@ -798,7 +798,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Expedición recibos de pago. Todos los programas"
         },
         {
@@ -810,7 +810,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario. Medicina Semestre 12 (Internado 2)"
         },
         {
@@ -822,7 +822,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula.Segunda fecha sin recargo. Medicina Semestre 12 (Internado 2)"
         },
         {
@@ -834,7 +834,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago Recargo 5%. Medicina Semestre 12 (Internado 2)"
         },
         {
@@ -846,7 +846,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario. Medicina Semestre 11 (Internado 1)"
         },
         {
@@ -858,7 +858,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "PSICOLOGÍA;FISIOTERAPIA;FONOAUDIOLOGÍA;TERAPIA OCUPACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario. Psicología, Fonoaudiología, Fisioterapia, Terapia Ocupacional"
         },
         {
@@ -870,7 +870,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula.Segunda fecha sin recargo. Medicina Semestre 11 (Internado 1)"
         },
         {
@@ -882,7 +882,7 @@
             "facultad": "FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ARQUITECTURA;ARTES;DISEÑO;BIOLOGÍA;TEATRO MUSICAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula Pago ordinario.  Teatro Musical, Arquitectura, Artes, Diseño y Biología"
         },
         {
@@ -894,7 +894,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario. Medicina Semestre 2 a 6"
         },
         {
@@ -906,7 +906,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario. Medicina Semestre 7 "
         },
         {
@@ -918,7 +918,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario. Medicina Semestre 7 "
         },
         {
@@ -930,7 +930,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;MARKETING Y NEGOCIOS DIGITALES",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula Pago ordinario.Administración de Empresas, Negocios Internacionales, Logística y Producción, Marketing"
         },
         {
@@ -942,7 +942,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago Recargo 5%. Medicina Semestre 11 (Internado 1)"
         },
         {
@@ -954,7 +954,7 @@
             "facultad": "ESCUELA DE CIENCIAS HUMANAS",
             "tipoPrograma": "Pregrado",
             "programa": "ANTROPOLOGÍA;ARTES LIBERALES EN CIENCIAS SOCIALES;FILOSOFÍA;HISTORIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;PERIODISMO Y OPINIÓN PÚBLICA;SOCIOLOGÍA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula Pago ordinario. Antropología, Artes Liberales, Sociología, Filosofía, Historia, Periodismo, Licenciaturas"
         },
         {
@@ -966,7 +966,7 @@
             "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
             "tipoPrograma": "Pregrado",
             "programa": "CIENCIA POLÍTICA Y GOBIERNO;GESTIÓN Y DESARROLLO URBANOS;RELACIONES INTERNACIONALES",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario.Ciencia Política, Relaciones Internacionales y Gestión y Desarrollo Urbanos"
         },
         {
@@ -978,7 +978,7 @@
             "facultad": "FACULTAD DE ECONOMÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ECONOMÍA;FINANZAS; FINANZAS Y COMERCIO INTERNACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula Pago ordinario. Economía, Finanzas y Comercio Internacional"
         },
         {
@@ -990,7 +990,7 @@
             "facultad": "FACULTAD DE JURISPRUDENCIA;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "JURISPRUDENCIA;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario. Matemáticas y Jurisprudencia"
         },
         {
@@ -1002,7 +1002,7 @@
             "facultad": "ESCUELA DE CIENCIAS HUMANAS",
             "tipoPrograma": "Pregrado",
             "programa": "ANTROPOLOGÍA;ARTES LIBERALES EN CIENCIAS SOCIALES;FISIOTERAPIA;HISTORIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula  Segunda fecha sin recargo, Antropología, Artes Liberales, Sociología, Filosofía, Historia, Periodismo, Licenciaturas"
         },
         {
@@ -1014,7 +1014,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;MARKETING Y NEGOCIOS DIGITALES",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Segunda fecha sin recargo .Administración de Empresas, Negocios Internacionales, Logística y Producción, Marketing"
         },
         {
@@ -1026,7 +1026,7 @@
             "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
             "tipoPrograma": "Pregrado",
             "programa": "CIENCIA POLÍTICA Y GOBIERNO;GESTIÓN Y DESARROLLO URBANOS;RELACIONES INTERNACIONALES",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Segunda fecha sin recargo .Ciencia Política, Relaciones Internacionales y Gestión y Desarrollo Urbanos"
         },
         {
@@ -1038,7 +1038,7 @@
             "facultad": "FACULTAD DE ECONOMÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ECONOMÍA;FINANZAS; FINANZAS Y COMERCIO INTERNACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula  Segunda fecha sin recargo. Economía, Finanzas y Comercio Internacional"
         },
         {
@@ -1050,7 +1050,7 @@
             "facultad": "FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ARQUITECTURA;ARTES;DISEÑO;BIOLOGÍA;TEATRO MUSICAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Segunda fecha sin recargo. Teatro Musical, Arquitectura, Artes, Diseño y Biología"
         },
         {
@@ -1062,7 +1062,7 @@
             "facultad": "FACULTAD DE JURISPRUDENCIA;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "JURISPRUDENCIA;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Segunda fecha sin recargo. Matemáticas y Jurisprudencia"
         },
         {
@@ -1074,7 +1074,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "PSICOLOGÍA;FISIOTERAPIA;FONOAUDIOLOGÍA;TERAPIA OCUPACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Segunda fecha sin recargo. Psicología, Fonoaudiología, Fisioterapia, Terapia Ocupacional"
         },
         {
@@ -1086,7 +1086,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Segunda fecha sin recargo. Medicina Semestre 2 a 6"
         },
         {
@@ -1098,7 +1098,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Segunda fecha sin recargo. Medicina Semestre 7 "
         },
         {
@@ -1110,7 +1110,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario. Medicina Semestre 10"
         },
         {
@@ -1122,7 +1122,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario. Medicina Semestre 8"
         },
         {
@@ -1134,7 +1134,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario. Medicina Semestre 9 "
         },
         {
@@ -1146,7 +1146,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula.Segunda fecha sin recargo. Medicina Semestre 10 "
         },
         {
@@ -1158,7 +1158,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Segunda fecha sin recargo. Medicina Semestre 8"
         },
         {
@@ -1168,7 +1168,7 @@
             "fechaInicio": "2021-01-19 00:00",
             "fechaFin": "2021-01-19 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Proceso de Inducción",
+            "categoria": "Proceso de Inducción",
             "contenido": "Inducción a Profesores Nuevos"
         },
         {
@@ -1180,7 +1180,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Proceso de Inducción",
+            "categoria": "Proceso de Inducción",
             "contenido": "Inducción Institucional para Estudiantes Nuevos todos los  Programas \r\n"
         },
         {
@@ -1190,7 +1190,7 @@
             "fechaInicio": "2021-07-19 00:00",
             "fechaFin": "2021-07-19 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Proceso de Inducción",
+            "categoria": "Proceso de Inducción",
             "contenido": "Inducción a Profesores Nuevos"
         },
         {
@@ -1202,7 +1202,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Proceso de Inducción",
+            "categoria": "Proceso de Inducción",
             "contenido": "Inducción Institucional para Estudiantes Nuevos todos los  Programas \r\n"
         },
         {
@@ -1214,7 +1214,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Oferta Académica Estudiantes Medicina 11 (Internado 1) (2020)"
         },
         {
@@ -1226,7 +1226,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Oferta Académica Medicina 1-6 (2020)"
         },
         {
@@ -1238,7 +1238,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Oferta Académica Medicina 7(2020)"
         },
         {
@@ -1250,7 +1250,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Oferta Académica Medicina 8(2020)"
         },
         {
@@ -1262,7 +1262,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Oferta Académica Medicina 9(2020)"
         },
         {
@@ -1272,7 +1272,7 @@
             "fechaInicio": "2021-01-20 00:00",
             "fechaFin": "2021-04-01 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Aprobación de la planeación del plan de trabajo 2020"
         },
         {
@@ -1282,7 +1282,7 @@
             "fechaInicio": "2021-01-20 00:00",
             "fechaFin": "2021-02-28 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Proceso de Planeación Plan de Trabajo 2020"
         },
         {
@@ -1292,7 +1292,7 @@
             "fechaInicio": "2021-01-20 00:00",
             "fechaFin": "2021-03-15 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Revisión de la Planeación del Plan de Trabajo de 2020"
         },
         {
@@ -1302,7 +1302,7 @@
             "fechaInicio": "2021-02-01 00:00",
             "fechaFin": "2021-05-28 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Fecha de Convocatoria de año Sabático Profesores de Carrera"
         },
         {
@@ -1312,7 +1312,7 @@
             "fechaInicio": "2021-02-08 00:00",
             "fechaFin": "2021-04-23 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Fecha de Convocatoria de becas"
         },
         {
@@ -1322,7 +1322,7 @@
             "fechaInicio": "2021-02-15 00:00",
             "fechaFin": "2021-02-26 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Diálogo formativo de la 4ta semana"
         },
         {
@@ -1332,7 +1332,7 @@
             "fechaInicio": "2021-03-24 00:00",
             "fechaFin": "2021-04-25 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Apreciación de la Docencia por parte de los estudiantes"
         },
         {
@@ -1342,7 +1342,7 @@
             "fechaInicio": "2021-04-02 00:00",
             "fechaFin": "2021-12-31 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Proceso de Ejecución del plan de trabajo"
         },
         {
@@ -1352,7 +1352,7 @@
             "fechaInicio": "2021-04-12 00:00",
             "fechaFin": "2021-09-17 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Fecha de Convocatoria promociones de carrera "
         },
         {
@@ -1362,7 +1362,7 @@
             "fechaInicio": "2021-04-30 00:00",
             "fechaFin": "2021-05-17 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Autoevaluación profesores de cátedra"
         },
         {
@@ -1374,7 +1374,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Dia del profesor"
         },
         {
@@ -1384,7 +1384,7 @@
             "fechaInicio": "2021-05-18 00:00",
             "fechaFin": "2021-05-31 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Evaluación por parte de jefes evaluadores de profesores de cátedra"
         },
         {
@@ -1394,7 +1394,7 @@
             "fechaInicio": "2021-06-09 00:00",
             "fechaFin": "2021-07-21 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Apreciación de la Docencia por parte de los estudiantes"
         },
         {
@@ -1404,7 +1404,7 @@
             "fechaInicio": "2021-07-06 00:00",
             "fechaFin": "2021-09-09 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Fecha de Convocatoria de becas"
         },
         {
@@ -1414,7 +1414,7 @@
             "fechaInicio": "2021-08-17 00:00",
             "fechaFin": "2021-08-27 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Diálogo formativo de la 4ta semana"
         },
         {
@@ -1424,7 +1424,7 @@
             "fechaInicio": "2021-09-28 00:00",
             "fechaFin": "2021-11-05 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Apreciación de la Docencia por parte de los estudiantes"
         },
         {
@@ -1434,7 +1434,7 @@
             "fechaInicio": "2021-11-05 00:00",
             "fechaFin": "2021-11-19 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Autoevaluación profesores de cátedra"
         },
         {
@@ -1444,7 +1444,7 @@
             "fechaInicio": "2021-11-20 00:00",
             "fechaFin": "2021-12-05 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Evaluación por parte de jefes evaluadores de profesores de cátedra"
         },
         {
@@ -1454,7 +1454,7 @@
             "fechaInicio": "2021-12-31 00:00",
             "fechaFin": "2021-12-31 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Fecha fin de Autoevaluación de profesores con plan de trabajo"
         },
         {
@@ -1464,7 +1464,7 @@
             "fechaInicio": "2022-02-15 00:00",
             "fechaFin": "2022-02-15 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Profesores ",
+            "categoria": "Profesores ",
             "contenido": "Fecha fin de Evaluación por parte de jefes de profesores con plan de trabajo"
         },
         {
@@ -1476,7 +1476,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Publicación de Grupos Cancelados",
+            "categoria": "Publicación de Grupos Cancelados",
             "contenido": "Grupos Cancelados Todos los programas"
         },
         {
@@ -1486,7 +1486,7 @@
             "fechaInicio": "2021-01-22 00:00",
             "fechaFin": "2021-02-04 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Publicación de Grupos Cancelados",
+            "categoria": "Publicación de Grupos Cancelados",
             "contenido": "Modificación Grupos Cancelados"
         },
         {
@@ -1498,7 +1498,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Publicación de Grupos Cancelados",
+            "categoria": "Publicación de Grupos Cancelados",
             "contenido": "Grupos Cancelados intersemestrales"
         },
         {
@@ -1510,7 +1510,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Publicación de Grupos Cancelados",
+            "categoria": "Publicación de Grupos Cancelados",
             "contenido": "Grupos Cancelados Todos los programas"
         },
         {
@@ -1520,7 +1520,7 @@
             "fechaInicio": "2021-07-24 00:00",
             "fechaFin": "2021-08-04 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Publicación de Grupos Cancelados",
+            "categoria": "Publicación de Grupos Cancelados",
             "contenido": "Modificación Grupos Cancelados"
         },
         {
@@ -1532,7 +1532,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Recesos y Vacaciones ",
+            "categoria": "Recesos y Vacaciones ",
             "contenido": "Semana Santa"
         },
         {
@@ -1542,7 +1542,7 @@
             "fechaInicio": "2021-03-29 00:00",
             "fechaFin": "2021-03-31 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Recesos y Vacaciones ",
+            "categoria": "Recesos y Vacaciones ",
             "contenido": "Vacaciones Extralegales de Semana Santa "
         },
         {
@@ -1554,7 +1554,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Recesos y Vacaciones ",
+            "categoria": "Recesos y Vacaciones ",
             "contenido": "Vacaciones de mitad de año (aplica para quienes no realicen cursos intersemestrales y de verano)"
         },
         {
@@ -1564,7 +1564,7 @@
             "fechaInicio": "2021-06-29 00:00",
             "fechaFin": "2021-07-09 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Recesos y Vacaciones ",
+            "categoria": "Recesos y Vacaciones ",
             "contenido": "Vacaciones Extralegales de mitad de año.  Nota: El disfrute de las vacaciones dependerá de las necesidades del servicio."
         },
         {
@@ -1576,7 +1576,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Recesos y Vacaciones ",
+            "categoria": "Recesos y Vacaciones ",
             "contenido": "Semana Rosarista "
         },
         {
@@ -1588,7 +1588,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Recesos y Vacaciones ",
+            "categoria": "Recesos y Vacaciones ",
             "contenido": "Vacaciones de final de año "
         },
         {
@@ -1598,7 +1598,7 @@
             "fechaInicio": "2021-12-20 00:00",
             "fechaFin": "2021-01-07 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Recesos y Vacaciones ",
+            "categoria": "Recesos y Vacaciones ",
             "contenido": "Vacaciones Legales de final de año."
         },
         {
@@ -1610,7 +1610,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas. Medicina Semestre 12 (Internado 2)"
         },
         {
@@ -1622,7 +1622,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro estudiantes de intercambio - Todos los programas"
         },
         {
@@ -1634,7 +1634,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "PSICOLOGÍA;FISIOTERAPIA;FONOAUDIOLOGÍA;TERAPIA OCUPACIONAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Psicología, Fonoaudiología, Fisioterapia, Terapia Ocupacional"
         },
         {
@@ -1646,7 +1646,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;FACULTAD DE CIENCIAS NATURALES",
             "tipoPrograma": "Pregrado",
             "programa": "BIOLOGÍA;FISIOTERAPIA;FONOAUDIOLOGÍA;INGENIERÍA BIOMEDICA;MEDICINA;PSICOLOGÍA;TERAPIA OCUPACIONAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de Asignaturas estudiantes de Doble programa Quinta de Mutis"
         },
         {
@@ -1658,7 +1658,7 @@
             "facultad": "FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ARQUITECTURA;ARTES;DISEÑO;BIOLOGÍA;TEATRO MUSICAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Teatro Musical, Arquitectura, Artes, Diseño y Biología"
         },
         {
@@ -1670,7 +1670,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Medicina Semestre 2 a 6"
         },
         {
@@ -1682,7 +1682,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas. Medicina Semestre 7 "
         },
         {
@@ -1694,7 +1694,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;MARKETING Y NEGOCIOS DIGITALES",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas: Administración de Empresas, Negocios Internacionales, Logística y Producción, Marketing"
         },
         {
@@ -1706,7 +1706,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE CREACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;MARKETING Y NEGOCIOS DIGITALES;TEATRO MUSICAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de Asignaturas estudiantes de Doble programa Sede Emprendimiento"
         },
         {
@@ -1718,7 +1718,7 @@
             "facultad": "FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS; FINANZAS Y COMERCIO INTERNACIONALGESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;RELACIONES INTERNACIONALES;SOCIOLOGÍA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de Asignaturas estudiantes de Doble programa Claustro"
         },
         {
@@ -1730,7 +1730,7 @@
             "facultad": "ESCUELA DE CIENCIAS HUMANAS",
             "tipoPrograma": "Pregrado",
             "programa": "ANTROPOLOGÍA;ARTES LIBERALES EN CIENCIAS SOCIALES;FISIOTERAPIA;HISTORIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Antropología, Artes Liberales, Sociología, Filosofía, Historia, Periodismo, Licenciaturas"
         },
         {
@@ -1742,7 +1742,7 @@
             "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
             "tipoPrograma": "Pregrado",
             "programa": "CIENCIA POLÍTICA Y GOBIERNO;GESTIÓN Y DESARROLLO URBANOS;RELACIONES INTERNACIONALES",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Ciencia Política, Relaciones Internacionales y Gestión y Desarrollo Urbanos"
         },
         {
@@ -1754,7 +1754,7 @@
             "facultad": "FACULTAD DE ECONOMÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ECONOMÍA;FINANZAS; FINANZAS Y COMERCIO INTERNACIONAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Economía, Finanzas y Comercio Internacional"
         },
         {
@@ -1766,7 +1766,7 @@
             "facultad": "FACULTAD DE JURISPRUDENCIA;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "JURISPRUDENCIA;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Matemáticas y Jurisprudencia"
         },
         {
@@ -1778,7 +1778,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas. Medicina Semestre 10"
         },
         {
@@ -1790,7 +1790,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas. Medicina Semestre 8"
         },
         {
@@ -1802,7 +1802,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas. Medicina Semestre 9"
         },
         {
@@ -1814,7 +1814,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Entrega horarios Estudiantes Nuevos "
         },
         {
@@ -1826,7 +1826,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro intersemestrales"
         },
         {
@@ -1838,7 +1838,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro estudiantes de intercambio - Todos los programas"
         },
         {
@@ -1850,7 +1850,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "PSICOLOGÍA;FISIOTERAPIA;FONOAUDIOLOGÍA;TERAPIA OCUPACIONAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Psicología, Fonoaudiología, Fisioterapia, Terapia Ocupacional"
         },
         {
@@ -1862,7 +1862,7 @@
             "facultad": "FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ARQUITECTURA;ARTES;DISEÑO;BIOLOGÍA;TEATRO MUSICAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Teatro Musical, Arquitectura, Artes, Diseño y Biología"
         },
         {
@@ -1874,7 +1874,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Reporte de notas ",
+            "categoria": "Reporte de notas ",
             "contenido": "Fecha máxima reportar notas definitivas Estudiantes Medicina 7 (2020)"
         },
         {
@@ -1886,7 +1886,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Reporte de notas ",
+            "categoria": "Reporte de notas ",
             "contenido": "Fecha máxima reportar notas definitivas Estudiantes Medicina 8 (2020)"
         },
         {
@@ -1898,7 +1898,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reporte de notas",
+            "categoria": "Reporte de notas",
             "contenido": "Fecha límite reportar primer corte todos los programas"
         },
         {
@@ -1910,7 +1910,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reporte de notas",
+            "categoria": "Reporte de notas",
             "contenido": "Fecha límite reportar segundo corte todos los programas"
         },
         {
@@ -1922,7 +1922,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reporte de notas",
+            "categoria": "Reporte de notas",
             "contenido": "Fecha límite reportar tercer corte todos los programas"
         },
         {
@@ -1934,7 +1934,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reporte de notas",
+            "categoria": "Reporte de notas",
             "contenido": "Fecha máxima reportar primer corte todos los programas"
         },
         {
@@ -1946,7 +1946,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha para reactivaciones de cupo y reintegros"
         },
         {
@@ -1958,7 +1958,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite de reserva de cupo estudiantes antiguos y retiro de asignaturas con beneficio académico estudiantes Medicina 12"
         },
         {
@@ -1970,7 +1970,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite retiro de asignaturas con beneficio económico Todos los Programas"
         },
         {
@@ -1982,7 +1982,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite de reserva de cupo estudiantes antiguos y retiro de asignaturas con beneficio académico estudiantes Medicina 11 (Internado 1)"
         },
         {
@@ -1994,7 +1994,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite de reserva de cupo estudiantes antiguos y retiro de asignaturas con beneficio académico estudiantes Medicina 1-6"
         },
         {
@@ -2006,7 +2006,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite de reserva de cupo estudiantes antiguos y retiro de asignaturas con beneficio académico estudiantes Medicina 10"
         },
         {
@@ -2018,7 +2018,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Homologaciones, Reconocimientos y Validaciones",
+            "categoria": "Homologaciones, Reconocimientos y Validaciones",
             "contenido": "Período para solicitud de homologaciones y reconocimientos de otros períodos"
         },
         {
@@ -2030,7 +2030,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases estudiantes  Medicina 7"
         },
         {
@@ -2042,7 +2042,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases estudiantes  Medicina 8"
         },
         {
@@ -2054,7 +2054,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD;ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Homologaciones, Reconocimientos y Validaciones",
+            "categoria": "Homologaciones, Reconocimientos y Validaciones",
             "contenido": "Período para solicitud de homologaciones y reconocimientos del período que culmina"
         },
         {
@@ -2066,7 +2066,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 7 (2020)"
         },
         {
@@ -2078,7 +2078,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 8 (2020)"
         },
         {
@@ -2090,7 +2090,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre académico Estudiantes Medicina 7 (2020)"
         },
         {
@@ -2102,7 +2102,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre académico Estudiantes Medicina 8 (2020)"
         },
         {
@@ -2112,7 +2112,7 @@
             "fechaInicio": "2021-05-27 00:00",
             "fechaFin": "2021-05-27 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre académico y normativa registro y control académico  programas de Estudios Universitarios y Fortalecimiento Académico"
         },
         {
@@ -2122,7 +2122,7 @@
             "fechaInicio": "2021-06-01 00:00",
             "fechaFin": "2021-06-01 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Secretarias Académicas - Todos los Programas. "
         },
         {
@@ -2134,7 +2134,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Medicina 1-6"
         },
         {
@@ -2146,7 +2146,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre académico y normativa académica - Todos los Programas"
         },
         {
@@ -2158,7 +2158,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 12 (Internado 2)"
         },
         {
@@ -2170,7 +2170,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 10 "
         },
         {
@@ -2182,7 +2182,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 9 "
         },
         {
@@ -2194,7 +2194,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 11 (Internado 1)"
         },
         {
@@ -2206,7 +2206,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 7 "
         },
         {
@@ -2218,7 +2218,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Estudiantes Medicina 8 "
         },
         {
@@ -2230,7 +2230,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre académico y normativa académica - Todos los Programas"
         },
         {
@@ -2240,7 +2240,7 @@
             "fechaInicio": "2021-07-21 00:00",
             "fechaFin": "2021-07-21 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Secretarias Académicas - Todos los Programas. "
         },
         {
@@ -2250,7 +2250,7 @@
             "fechaInicio": "2021-11-24 00:00",
             "fechaFin": "2021-11-24 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre académico y normativa registro y control académico  programas de Estudios Universitarios y Fortalecimiento Académico"
         },
         {
@@ -2260,7 +2260,7 @@
             "fechaInicio": "2021-11-30 00:00",
             "fechaFin": "2021-11-30 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre de actas Secretarias Académicas - Todos los Programas. "
         },
         {
@@ -2272,7 +2272,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Cierre Académico",
+            "categoria": "Cierre Académico",
             "contenido": "Cierre académico y normativa académica - Todos los Programas"
         },
         {
@@ -2284,7 +2284,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Exámenes finales",
+            "categoria": "Exámenes finales",
             "contenido": "Exámenes finales Medicina 1-6"
         },
         {
@@ -2296,7 +2296,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ESTUDIOS UNIVERSITARIOS EN CIENCIAS SOCIALES;ESTUDIOS UNIVERSITARIOS EN MEDICINA;ESTUDIOS UNIVERSITARIOS EN CIENCIAS NATURALES Y DE LA SALUD;ESTUDIOS UNIVERSITARIOS EN REHABILITACIÓN;ESTUDIOS UNIVERSITARIOS EN CIENCIAS DE LA SALUD;FORTALECIMIENTO ACADÉMICO EN PSICOLOGIA Y CS NATURALES;FORTALECIMIENTO ACADÉMICO EN CIENCIAS SOCIALES;FORTALECIMIENTO ACADÉMICO PARA REHABILITACIÓN;FORTALECIMIENTO ACADÉMICO EN MEDICINA",
-            "categoria ": "Exámenes finales",
+            "categoria": "Exámenes finales",
             "contenido": "Período de Evaluaciones Finales todos los programas de Estudios Universitarios y Fortalecimiento Académico"
         },
         {
@@ -2308,7 +2308,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Exámenes finales",
+            "categoria": "Exámenes finales",
             "contenido": "Período de Evaluaciones Finales  Todos los Programas "
         },
         {
@@ -2320,7 +2320,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases estudiantes  Medicina 9"
         },
         {
@@ -2332,7 +2332,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ESTUDIOS UNIVERSITARIOS EN CIENCIAS SOCIALES;ESTUDIOS UNIVERSITARIOS EN MEDICINA;ESTUDIOS UNIVERSITARIOS EN CIENCIAS NATURALES Y DE LA SALUD;ESTUDIOS UNIVERSITARIOS EN REHABILITACIÓN;ESTUDIOS UNIVERSITARIOS EN CIENCIAS DE LA SALUD;FORTALECIMIENTO ACADÉMICO EN PSICOLOGIA Y CS NATURALES;FORTALECIMIENTO ACADÉMICO EN CIENCIAS SOCIALES;FORTALECIMIENTO ACADÉMICO PARA REHABILITACIÓN;FORTALECIMIENTO ACADÉMICO EN MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Último día del Período Académico (incluye evaluaciones finales)  todos los programas de Estudios Universitarios y Fortalecimiento Académico"
         },
         {
@@ -2344,7 +2344,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Último día del Período Académico (incluye Evaluaciones finales) Todos los Programas "
         },
         {
@@ -2356,7 +2356,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases Todos los Programas "
         },
         {
@@ -2368,7 +2368,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases Todos los Programas "
         },
         {
@@ -2380,7 +2380,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ESTUDIOS UNIVERSITARIOS EN CIENCIAS SOCIALES;ESTUDIOS UNIVERSITARIOS EN MEDICINA;ESTUDIOS UNIVERSITARIOS EN CIENCIAS NATURALES Y DE LA SALUD;ESTUDIOS UNIVERSITARIOS EN REHABILITACIÓN;ESTUDIOS UNIVERSITARIOS EN CIENCIAS DE LA SALUD;FORTALECIMIENTO ACADÉMICO EN PSICOLOGIA Y CS NATURALES;FORTALECIMIENTO ACADÉMICO EN CIENCIAS SOCIALES;FORTALECIMIENTO ACADÉMICO PARA REHABILITACIÓN;FORTALECIMIENTO ACADÉMICO EN MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases todos los programas de Estudios Universitarios y Fortalecimiento Académico"
         },
         {
@@ -2392,7 +2392,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "Fisioterapia;Fonoaudiología;Terapia Ocupacional",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Inicio y finalización de Clases estudiantes en práctica Programas de Fonoaudiología, Fisioterapia y Terapia Ocupacional "
         },
         {
@@ -2404,7 +2404,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ESTUDIOS UNIVERSITARIOS EN CIENCIAS SOCIALES;ESTUDIOS UNIVERSITARIOS EN MEDICINA;ESTUDIOS UNIVERSITARIOS EN CIENCIAS NATURALES Y DE LA SALUD;ESTUDIOS UNIVERSITARIOS EN REHABILITACIÓN;ESTUDIOS UNIVERSITARIOS EN CIENCIAS DE LA SALUD;FORTALECIMIENTO ACADÉMICO EN PSICOLOGIA Y CS NATURALES;FORTALECIMIENTO ACADÉMICO EN CIENCIAS SOCIALES;FORTALECIMIENTO ACADÉMICO PARA REHABILITACIÓN;FORTALECIMIENTO ACADÉMICO EN MEDICINA",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Último día del Período Académico (incluye evaluaciones finales)  todos los programas de Estudios Universitarios y Fortalecimiento Académico"
         },
         {
@@ -2416,7 +2416,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Inicio y Finalización de Clases",
+            "categoria": "Inicio y Finalización de Clases",
             "contenido": "Último día del Período Académico (incluye Evaluaciones finales) Todos los Programas "
         },
         {
@@ -2428,7 +2428,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula.Segunda fecha sin recargo. Medicina Semestre 9 "
         },
         {
@@ -2440,7 +2440,7 @@
             "facultad": "ESCUELA DE CIENCIAS HUMANAS",
             "tipoPrograma": "Pregrado",
             "programa": "ANTROPOLOGÍA;ARTES LIBERALES EN CIENCIAS SOCIALES;FISIOTERAPIA;HISTORIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula  Pago Recargo 5% Antropología, Artes Liberales, Sociología, Filosofía, Historia, Periodismo, Licenciaturas"
         },
         {
@@ -2452,7 +2452,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;MARKETING Y NEGOCIOS DIGITALES",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula  Pago Recargo 5% .Administración de Empresas, Negocios Internacionales, Logística y Producción, Marketing"
         },
         {
@@ -2464,7 +2464,7 @@
             "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
             "tipoPrograma": "Pregrado",
             "programa": "CIENCIA POLÍTICA Y GOBIERNO;GESTIÓN Y DESARROLLO URBANOS;RELACIONES INTERNACIONALES",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula.  Pago Recargo 5% .Ciencia Política, Relaciones Internacionales y Gestión y Desarrollo Urbanos"
         },
         {
@@ -2476,7 +2476,7 @@
             "facultad": "FACULTAD DE ECONOMÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ECONOMÍA;FINANZAS; FINANZAS Y COMERCIO INTERNACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula  Pago Recargo 5% Economía, Finanzas y Comercio Internacional"
         },
         {
@@ -2488,7 +2488,7 @@
             "facultad": "FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ARQUITECTURA;ARTES;DISEÑO;BIOLOGÍA;TEATRO MUSICAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula Pago Recargo 5% Teatro Musical, Arquitectura, Artes, Diseño y Biología"
         },
         {
@@ -2500,7 +2500,7 @@
             "facultad": "FACULTAD DE JURISPRUDENCIA;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "JURISPRUDENCIA;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula.  Pago Recargo 5% Matemáticas y Jurisprudencia"
         },
         {
@@ -2512,7 +2512,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "PSICOLOGÍA;FISIOTERAPIA;FONOAUDIOLOGÍA;TERAPIA OCUPACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago Recargo 5% Psicología, Fonoaudiología, Fisioterapia, Terapia Ocupacional"
         },
         {
@@ -2524,7 +2524,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago Recargo 5%. Medicina Semestre 10"
         },
         {
@@ -2536,7 +2536,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago Recargo 5%. Medicina Semestre 2 a 6"
         },
         {
@@ -2548,7 +2548,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago Recargo 5%. Medicina Semestre 7 "
         },
         {
@@ -2560,7 +2560,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago Recargo 5%. Medicina Semestre 8"
         },
         {
@@ -2572,7 +2572,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago Recargo 5%. Medicina Semestre 9"
         },
         {
@@ -2584,7 +2584,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Fecha límite para pago de créditos adicionales"
         },
         {
@@ -2596,7 +2596,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Publicación web recibos de matrícula"
         },
         {
@@ -2608,7 +2608,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Pago cursos intersemestrales"
         },
         {
@@ -2620,7 +2620,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula Pago ordinario.Empresas, Negocios Internacionales, Logística y Producción, Marketing"
         },
         {
@@ -2632,7 +2632,7 @@
             "facultad": "FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ARQUITECTURA;ARTES;DISEÑO;BIOLOGÍA;TEATRO MUSICAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula Pago ordinario.  Teatro Musical, Arquitectura, Artes, Diseño y Biología"
         },
         {
@@ -2644,7 +2644,7 @@
             "facultad": "ESCUELA DE CIENCIAS HUMANAS",
             "tipoPrograma": "Pregrado",
             "programa": "ANTROPOLOGÍA;ARTES LIBERALES EN CIENCIAS SOCIALES;FISIOTERAPIA;HISTORIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula Pago ordinario. Antropología, Artes Liberales, Sociología, Filosofía, Historia, Periodismo, Licenciaturas"
         },
         {
@@ -2656,7 +2656,7 @@
             "facultad": "FACULTAD DE ECONOMÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ECONOMÍA;FINANZAS; FINANZAS Y COMERCIO INTERNACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula Pago ordinario. Economía, Finanzas y Comercio Internacional"
         },
         {
@@ -2668,7 +2668,7 @@
             "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
             "tipoPrograma": "Pregrado",
             "programa": "CIENCIA POLÍTICA Y GOBIERNO;GESTIÓN Y DESARROLLO URBANOS;RELACIONES INTERNACIONALES",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario.Ciencia Política, Relaciones Internacionales y Gestión y Desarrollo Urbanos"
         },
         {
@@ -2680,7 +2680,7 @@
             "facultad": "FACULTAD DE JURISPRUDENCIA;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "JURISPRUDENCIA;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Periodo pago de matricula. Pago ordinario Matemáticas y Jurisprudencia"
         },
         {
@@ -2692,7 +2692,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Pago de Matrículas",
+            "categoria": "Pago de Matrículas",
             "contenido": "Fecha límite para pago de créditos adicionales"
         },
         {
@@ -2704,7 +2704,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Oferta Académica Medicina 10(2020)"
         },
         {
@@ -2714,7 +2714,7 @@
             "fechaInicio": "2021-02-14 00:00",
             "fechaFin": "2021-04-30 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Inclusión de la oferta académica en el Sistema de Información Académico (Intersemestrales y cursos de verano)"
         },
         {
@@ -2724,7 +2724,7 @@
             "fechaInicio": "2021-03-10 00:00",
             "fechaFin": "2021-05-21 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Planeación y Diseño de la oferta académica en el Sistema de Información Académico (Asignaturas obligatorias y electivas Facultades y profesionales)"
         },
         {
@@ -2734,7 +2734,7 @@
             "fechaInicio": "2021-03-12 00:00",
             "fechaFin": "2021-05-21 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Planeación y Diseño de la oferta académica en el Sistema de Información Académico (Asignaturas electivas)"
         },
         {
@@ -2746,7 +2746,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELCTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Publicación de catálogo web de la oferta académica"
         },
         {
@@ -2758,7 +2758,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELCTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Proceso de Planeación y Oferta Académica",
+            "categoria": "Proceso de Planeación y Oferta Académica",
             "contenido": "Publicación de catálogo web de la oferta académica"
         },
         {
@@ -2770,7 +2770,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;MARKETING Y NEGOCIOS DIGITALES",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas: Administración de Empresas, Negocios Internacionales, Logística y Producción, Marketing"
         },
         {
@@ -2782,7 +2782,7 @@
             "facultad": "ESCUELA DE CIENCIAS HUMANAS",
             "tipoPrograma": "Pregrado",
             "programa": "ANTROPOLOGÍA;ARTES LIBERALES EN CIENCIAS SOCIALES;FISIOTERAPIA;HISTORIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Antropología, Artes Liberales, Sociología, Filosofía, Historia, Periodismo, Licenciaturas"
         },
         {
@@ -2794,7 +2794,7 @@
             "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
             "tipoPrograma": "Pregrado",
             "programa": "CIENCIA POLÍTICA Y GOBIERNO;GESTIÓN Y DESARROLLO URBANOS;RELACIONES INTERNACIONALES",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Ciencia Política, Relaciones Internacionales y Gestión y Desarrollo Urbanos"
         },
         {
@@ -2806,7 +2806,7 @@
             "facultad": "FACULTAD DE ECONOMÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ECONOMÍA;FINANZAS; FINANZAS Y COMERCIO INTERNACIONAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Economía, Finanzas y Comercio Internacional"
         },
         {
@@ -2818,7 +2818,7 @@
             "facultad": "FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS; FINANZAS Y COMERCIO INTERNACIONALGESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;RELACIONES INTERNACIONALES;SOCIOLOGÍA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de Asignaturas estudiantes de Doble programa Claustro"
         },
         {
@@ -2830,7 +2830,7 @@
             "facultad": "FACULTAD DE JURISPRUDENCIA;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "JURISPRUDENCIA;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas Matemáticas y Jurisprudencia"
         },
         {
@@ -2840,7 +2840,7 @@
             "fechaInicio": "2021-07-18 00:00",
             "fechaFin": "2021-07-21 23:59",
             "tipoPrograma": "Pregrado",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Ajuste Registro de Asignaturas Estudiantes que realizaron Cursos Intersemestrales"
         },
         {
@@ -2852,7 +2852,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reporte de notas",
+            "categoria": "Reporte de notas",
             "contenido": "Fecha máxima reportar segundo corte todos los programas"
         },
         {
@@ -2864,7 +2864,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reporte de notas",
+            "categoria": "Reporte de notas",
             "contenido": "Fecha máxima reportar tercer corte todos los programas"
         },
         {
@@ -2876,7 +2876,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite de reserva de cupo estudiantes antiguos y retiro de asignaturas con beneficio académico estudiantes Medicina 7"
         },
         {
@@ -2888,7 +2888,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite de reserva de cupo estudiantes antiguos y retiro de asignaturas con beneficio académico estudiantes Medicina 8"
         },
         {
@@ -2900,7 +2900,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite de reserva de cupo estudiantes antiguos y retiro de asignaturas con beneficio académico estudiantes Medicina 9"
         },
         {
@@ -2912,7 +2912,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha para reactivaciones de cupo y reintegros"
         },
         {
@@ -2924,7 +2924,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite retiro de asignaturas con beneficio económico Todos los Programas"
         },
         {
@@ -2936,7 +2936,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite de reserva de cupo estudiantes antiguos y retiro de asignaturas con beneficio académico Todos los Programas"
         },
         {
@@ -2948,7 +2948,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Reserva de cupo, re activaciones de cupo y reintegros",
+            "categoria": "Reserva de cupo, re activaciones de cupo y reintegros",
             "contenido": "Fecha límite para reserva de cupo y retiro de asignaturas con beneficio académico"
         },
         {
@@ -2960,7 +2960,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": "Retiro de asignaturas con beneficio económico estudiantes Medicina 10"
         },
         {
@@ -2972,7 +2972,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": "Retiro de asignaturas con beneficio económico estudiantes Medicina 7"
         },
         {
@@ -2984,7 +2984,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": "Retiro de asignaturas con beneficio económico estudiantes Medicina 8"
         },
         {
@@ -2996,7 +2996,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": " Retiro de asignaturas con beneficio económico estudiantes Medicina 9"
         },
         {
@@ -3008,7 +3008,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": "Retiro de asignaturas de todos los programas con beneficio académico"
         },
         {
@@ -3020,7 +3020,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": "Retiro de asignaturas de todos los programas con beneficio económico"
         },
         {
@@ -3032,7 +3032,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Retiro de asignaturas",
+            "categoria": "Retiro de asignaturas",
             "contenido": "Retiro de asignaturas de todos los programas con beneficio académico"
         },
         {
@@ -3044,7 +3044,7 @@
             "facultad": "ESCUELA DE ADMINISTRACIÓN;FACULTAD DE JURISPRUDENCIA;FACULTAD DE ECONOMÍA;FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS;ESCUELA DE CIENCIAS HUMANAS;FACULTAD DE CIENCIAS NATURALES;FACULTAD DE CREACIÓN;ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
             "tipoPrograma": "Pregrado",
             "programa": "ADMINISTRACIÓN DE EMPRESAS;ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES;ADMINISTRACIÓN EN LOGÍSTICA Y PRODUCCIÓN;ANTROPOLOGÍA;ARQUITECTURA;ARTES;ARTES LIBERALES EN CIENCIAS SOCIALES;BIOLOGÍA;CIENCIA POLÍTICA Y GOBIERNO;CREACIÓN;DISEÑO;ECONOMÍA;FILOSOFÍA;FINANZAS;FINANZAS Y COMERCIO INTERNACIONAL;FISIOTERAPIA;FONOAUDIOLOGÍA;GESTIÓN Y DESARROLLO URBANOS;HISTORIA;INGENIERÍA BIOMEDICA;INGENIERÍA ELECTRÓNICA;INGENIERÍA INDUSTRIAL;JURISPRUDENCIA;LICENCIATURA EN CIENCIAS SOCIALES;LICENCIATURA EN FILOSOFIA;MARKETING Y NEGOCIOS DIGITALES;MATEMÁTICAS APLICADAS Y CIENCIAS DE LA COMPUTACIÓN;PERIODISMO Y OPINIÓN PÚBLICA;PSICOLOGÍA;RELACIONES INTERNACIONALES;SOCIOLOGÍA;TEATRO MUSICAL;TERAPIA OCUPACIONAL",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Entrega horarios Estudiantes Nuevos "
         },
         {
@@ -3056,7 +3056,7 @@
             "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
             "tipoPrograma": "Pregrado",
             "programa": "MEDICINA",
-            "categoria ": "Registro de Asignaturas",
+            "categoria": "Registro de Asignaturas",
             "contenido": "Registro de asignaturas. Medicina Semestre 11 (Internado 1)"
         }
     ]

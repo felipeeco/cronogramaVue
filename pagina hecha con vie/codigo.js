@@ -50,7 +50,7 @@ Vue.component('ordenar',{
                     store.state.actividades = store.state.actividades.reverse();
                     store.state.ordenDeActivades = true;
                }
-               this.$store.commit('ordenarMutation', e);
+               this.$store.commit('ordenarMutation', e.target.value);
            }
         }
 
@@ -612,8 +612,8 @@ const store = new Vuex.Store({
     },
     actions: {
         llamarJson: async function({ commit }){
-            const data = await fetch('calendario-2021-prueba.json');
-            //const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
+            //const data = await fetch('calendario-2021-prueba.json');
+            const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
             const dataJson = await data.json();
             commit('llamarJsonMutation', dataJson);
         }
