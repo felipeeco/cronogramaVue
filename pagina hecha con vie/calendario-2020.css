@@ -1,7 +1,15 @@
 .lista-facultad li, .lista-programas li{
     color: gray;
 }
-
+.lista-corta li {
+    display: none;
+}
+.lista-corta li:nth-child(1), .lista-corta li:nth-child(2), .lista-corta li:nth-child(3){
+    display: block;
+}
+.ocultar{
+    display: none;
+}
 .Sin_espacio {
     margin: 0px;
 }
@@ -93,7 +101,7 @@ hr.linea {
     display: block;
     color: #a2a2a2;
     line-height: 1em;
-    font-size: 1em;
+    font-size:.9em;
     text-transform: capitalize;
 }
 .Fecha i {
@@ -506,7 +514,7 @@ input[type=time] {
 }
 .fechas {
     background-color: #f1f1f1!important;
-    padding: 0 62px!important;
+    padding: 1% 5% 3%!important;
 }
 a.Fecha {
     display: none;
@@ -521,6 +529,27 @@ input#boton-mostrar-mas:hover {
     background-color: #32286f;
     border: 1px solid#32286f;
 }
+.row.Programa-especifico ul {
+    list-style: none;
+    padding: 12px;
+    font-size: .7em;
+    color: #929294;
+    text-transform: capitalize;
+
+    margin-bottom: 0;
+}
+.row.Programa-especifico li {
+  padding-left: .1em;
+}
+.row.Programa-especifico  li:before {
+  content: "âœ”"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+  color:#da0921;
+}
+
 @media (max-width: 1024px) {
     .flex-container>div {
         width: 23%;

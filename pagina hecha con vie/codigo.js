@@ -341,6 +341,8 @@ Vue.component('actividades', {
             <div v-if="mostrarSoloCinco">
                 <template v-for="(item, key) in actividades.slice(0, 5)">
                     <div class="row Programa-especifico">
+
+
                         <div class="col-md-4 col-lg-4 Fecha">
                             <div class="row">
                                 <div class="col-md-2 col-lg-2">
@@ -355,15 +357,11 @@ Vue.component('actividades', {
                             </div>
                             <div class="mt-3 txt">
                                 <strong>Tipo de programa</strong> <span>{{ item.tipoPrograma }}</span><br />
-                                <strong>Facultad</strong> <ul class="lista-facultad" v-html="programasMethod(item.facultad)"></ul><br />
-                                <strong>Programa</strong> 
-                                <ul class="lista-programas" v-html="programasMethod(item.programa)"></ul><br />
                                 <strong>Categoria</strong> <span>{{ item.categoria }}</span>
                             </div>
                         </div>
                         <div class="col-md-8 col-lg-8 Descripcion">
                             <p class="titulo">{{ item.nombre}}</p>
-                            <p>{{ item.contenido}}</p>
                             <strong>Fecha de inicio:</strong> <span class="txt">
                             {{ dia(item.fechaInicio) }} {{ mes(item.fechaInicio) }}, de {{ year(item.fechaInicio) }}
                             </span><br />
@@ -373,6 +371,25 @@ Vue.component('actividades', {
                             <div class="row">
                                 <div class="col-lg-3 Semestre_uno"><a href="">{{ item.periodo }}</a></div>
                                 <div class="col-lg-3 Cerrado"><a href="">{{ estado(item.fechaFin) }}</a></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 caja-fp">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <strong>Facultad</strong> 
+                                    <ul v-if="contadorProgramas(item.facultad,'inicial-menos-3')" class="lista-facultad lista-menos-3" v-html="programasMethod(item.facultad)"></ul>
+                                    <ul v-if="contadorProgramas(item.facultad,'inicial')" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.facultad)"></ul>
+                                    <ul v-if="contadorProgramas(item.facultad,'abierto')" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.facultad)"></ul>
+                                    <a href="#" @click.prevent="gato($event)">Prueba click</a>
+                                    
+                                </div>
+                                <div class="col-lg-6">
+                                    <strong>Programa</strong> 
+                                    <ul v-if="contadorProgramas(item.programa,'inicial-menos-3')" class="lista-facultad lista-menos-3" v-html="programasMethod(item.programa)"></ul>
+                                    <ul v-if="contadorProgramas(item.programa,'inicial')" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.programa)"></ul>
+                                    <ul v-if="contadorProgramas(item.programa,'abierto')" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.programa)"></ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -398,9 +415,6 @@ Vue.component('actividades', {
                             </div>
                             <div class="mt-3 txt">
                                 <strong>Tipo de programa</strong> <span>{{ item.tipoPrograma }}</span><br />
-                                <strong>Facultad</strong> <ul class="lista-facultad" v-html="programasMethod(item.facultad)"></ul><br />
-                                <strong>Programa</strong> 
-                                <ul class="lista-programas" v-html="programasMethod(item.programa)"></ul><br />
                                 <strong>Categoria</strong> <span>{{ item.categoria }}</span>
                             </div>
                         </div>
@@ -415,6 +429,22 @@ Vue.component('actividades', {
                             <div class="row">
                                 <div class="col-lg-3 Semestre_uno"><a href="">{{ item.periodo }}</a></div>
                                 <div class="col-lg-3 Cerrado"><a href="">{{ estado(item.fechaFin) }}</a></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 caja-fp">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <strong>Facultad</strong> 
+                                    <ul v-if="contadorProgramas(item.facultad,'inicial-menos-3')" class="lista-facultad lista-menos-3" v-html="programasMethod(item.facultad)"><p>Perro</p></ul>
+                                    <ul v-if="contadorProgramas(item.facultad,'inicial')" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.facultad)"></ul>
+                                    <ul v-if="contadorProgramas(item.facultad,'abierto')" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.facultad)"></ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <strong>Programa</strong> 
+                                    <ul v-if="contadorProgramas(item.programa,'inicial-menos-3')" class="lista-facultad lista-menos-3" v-html="programasMethod(item.programa)"></ul>
+                                    <ul v-if="contadorProgramas(item.programa,'inicial')" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.programa)"></ul>
+                                    <ul v-if="contadorProgramas(item.programa,'abierto')" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.programa)"></ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -491,8 +521,34 @@ Vue.component('actividades', {
                return "<li>" + edicionString + "</li>";
            }  
         },
+        verMasProgramasMethod(programas){
+            if(programas){
+                var edicionString = programas.replaceAll(";", "</li><li>");
+                return "<li>" + edicionString + "</li>";
+            }  
+        },
+        verMenosProgramasMethod(programas){
+            if(programas){
+                var edicionString = programas.replaceAll(";", "</li><li>");
+                return "<li>" + edicionString + "</li><a href='#' class='programas-ver-menos'>Ver menos</a>";
+            }  
+        },
         mostrarSoloCincoMethod(e){
             this.$store.commit('mostrarSoloCincoMutation', e);
+        },
+        contadorProgramas(programas,estado){
+            if((programas.match(/;/g) || []).length > 3 && estado == 'inicial'){
+                return true;
+            }else if((programas.match(/;/g) || []).length < 3 && estado == 'inicial'){
+                return false;
+            }
+            else if((programas.match(/;/g) || []).length < 3 && estado == 'inicial-menos-3'){
+                return true;
+            }   
+        },
+        gato(event){
+            event.target.parentElement.getElementsByClassName("lista-facultad lista-menos-3")[0].style.display = "none";
+         
         }
     }
 });
@@ -572,5 +628,5 @@ new Vue({
     store: store,
     created(){
         this.$store.dispatch('llamarJson');
-    }
+    },
 });
