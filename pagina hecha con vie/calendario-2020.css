@@ -7,7 +7,7 @@
 .lista-corta li:nth-child(1), .lista-corta li:nth-child(2), .lista-corta li:nth-child(3){
     display: block;
 }
-.ocultar{
+.ocultar, .lista-larga{
     display: none;
 }
 .Sin_espacio {
