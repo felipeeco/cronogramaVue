@@ -531,7 +531,7 @@ input#boton-mostrar-mas:hover {
 }
 .row.Programa-especifico ul {
     list-style: none;
-    padding: 12px;
+    padding: 0px 29px 9px 15px;
     font-size: .7em;
     color: #929294;
     text-transform: capitalize;
@@ -549,7 +549,36 @@ input#boton-mostrar-mas:hover {
   width: 1.3em; /* same as padding-left set on li */
   color:#da0921;
 }
-
+a.boton-ver-mas strong {
+    color: #14286f;
+}
+a.boton-ver-mas {
+     background-color: #14286f;
+    font-weight: 800;
+    padding: 2px 46px;
+    border-radius: 5px;
+    color: #ffff;
+    width: 74%;
+    font-size: .8em;
+    /* margin: auto; */
+    transition: width 3s;
+    transition-delay: 1s;
+    text-align: center;
+}
+a.boton-ver-menos {
+    background-color: #f1f1f1;
+    font-weight: 800;
+    padding: 2px 46px;
+    border-radius: 5px;
+    color: #14286f;
+    width: 74%;
+       font-size: .8em;
+    /* margin: auto; */
+    transition: width 3s;
+    transition-delay: 1s;
+    margin-top: 11px;
+    text-align: center;
+}
 @media (max-width: 1024px) {
     .flex-container>div {
         width: 23%;
@@ -576,6 +605,12 @@ input#boton-mostrar-mas:hover {
     .Formulario_busqueda {
     margin-bottom: 46px;
    }
+a.boton-ver-mas {
+    width: 100%;
+}
+a.boton-ver-menos {
+    width: 100%;
+}
 }
 @media (max-width:320px) {
 .Calendario .nav-tabs .nav-link {

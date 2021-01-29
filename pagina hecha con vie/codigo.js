@@ -201,7 +201,7 @@ Vue.component('filtro',{
                 duo = true;
                 tempActividades.forEach( item => {
                     if(item.categoria){
-                        if(item.categoria == store.state.filtro.categoriaFiltro){
+                        if(as(item.categoria.toLowerCase()) == as(store.state.filtro.categoriaFiltro.toLowerCase())){
                             store.state.actividades.push(item);
                         }
                     }  
@@ -213,7 +213,7 @@ Vue.component('filtro',{
                 duo = true;
                 tempActividades.forEach( item => {
                     if(item.facultad){
-                        if(item.facultad.toLowerCase().search(store.state.filtro.facultadFiltro.toLowerCase()) >= 0){
+                        if(as(item.facultad.toLowerCase()).search(as(store.state.filtro.facultadFiltro.toLowerCase())) >= 0){
                             store.state.actividades.push(item);
                         }
                     }
@@ -341,8 +341,6 @@ Vue.component('actividades', {
             <div v-if="mostrarSoloCinco">
                 <template v-for="(item, key) in actividades.slice(0, 5)">
                     <div class="row Programa-especifico">
-
-
                         <div class="col-md-4 col-lg-4 Fecha">
                             <div class="row">
                                 <div class="col-md-2 col-lg-2">
@@ -357,7 +355,28 @@ Vue.component('actividades', {
                             </div>
                             <div class="mt-3 txt">
                                 <strong>Tipo de programa</strong> <span>{{ item.tipoPrograma }}</span><br />
-                                <strong>Categoria</strong> <span>{{ item.categoria }}</span>
+                                <strong>Categoria</strong> <span>{{ item.categoria }}</span><br />
+                                <strong>Facultad</strong>
+                                    <div class="caja-facultad">
+                                    
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial-menos-3') }" class="lista-facultad lista-menos-3" v-html="programasMethod(item.facultad)"></ul>
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial') }" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.facultad)"></ul>
+                                        <a v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial') }" class="boton-ver-mas" href="#" @click.prevent="verMas($event)">Ver más</a>
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'abierto') }" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.facultad)"></ul>
+                                        <a v-bind:class="{ ocultar : contadorProgramas(item.facultad,'abierto') }" class="boton-ver-menos" href="#" @click.prevent="verMenos($event)">Ver menos</a>
+                                        
+                                    </div> 
+                                    <br />
+                                <strong>Programa</strong> 
+                                    <div class="caja-programas">
+                                    
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial-menos-3') }" class="lista-facultad lista-menos-3" v-html="programasMethod(item.programa)"></ul>
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial') }" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.programa)"></ul>
+                                        <a v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial') }" class="boton-ver-mas" href="#" @click.prevent="verMas($event)">Ver más</a>
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'abierto') }" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.programa)"></ul>
+                                        <a v-bind:class="{ ocultar : contadorProgramas(item.programa,'abierto') }" class="boton-ver-menos" href="#" @click.prevent="verMenos($event)">Ver menos</a>
+                                    
+                                    </div>
                             </div>
                         </div>
                         <div class="col-md-8 col-lg-8 Descripcion">
@@ -371,27 +390,6 @@ Vue.component('actividades', {
                             <div class="row">
                                 <div class="col-lg-3 Semestre_uno"><a href="">{{ item.periodo }}</a></div>
                                 <div class="col-lg-3 Cerrado"><a href="">{{ estado(item.fechaFin) }}</a></div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-12 caja-fp">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <strong>Facultad</strong> 
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial-menos-3') }" class="lista-facultad lista-menos-3" v-html="programasMethod(item.facultad)"></ul>
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial') }" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.facultad)"></ul>
-                                    <a v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial') }" class="boton-ver-mas" href="#" @click.prevent="verMas($event)">Ver más</a>
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'abierto') }" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.facultad)"></ul>
-                                    <a v-bind:class="{ ocultar : contadorProgramas(item.facultad,'abierto') }" class="boton-ver-menos" href="#" @click.prevent="verMenos($event)">Ver menos</a>
-                                </div>
-                                <div class="col-lg-6">
-                                    <strong>Programa</strong> 
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial-menos-3') }" class="lista-facultad lista-menos-3" v-html="programasMethod(item.programa)"></ul>
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial') }" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.programa)"></ul>
-                                    <a v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial') }" class="boton-ver-mas" href="#" @click.prevent="verMas($event)">Ver más</a>
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'abierto') }" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.programa)"></ul>
-                                    <a v-bind:class="{ ocultar : contadorProgramas(item.programa,'abierto') }" class="boton-ver-menos" href="#" @click.prevent="verMenos($event)">Ver menos</a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -417,11 +415,28 @@ Vue.component('actividades', {
                             </div>
                             <div class="mt-3 txt">
                                 <strong>Tipo de programa</strong> <span>{{ item.tipoPrograma }}</span><br />
-                                <strong>Categoria</strong> <span>{{ item.categoria }}</span>
+                                <strong>Categoria</strong> <span>{{ item.categoria }}</span><br />
+                                <strong>Facultad</strong>
+                                    <div class="caja-facultad">
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial-menos-3') }" class="lista-facultad lista-menos-3" v-html="programasMethod(item.facultad)"></ul>
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial') }" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.facultad)"></ul>
+                                        <a v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial') }" class="boton-ver-mas" href="#" @click.prevent="verMas($event)">Ver más</a>
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'abierto') }" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.facultad)"></ul>
+                                        <a v-bind:class="{ ocultar : contadorProgramas(item.facultad,'abierto') }" class="boton-ver-menos" href="#" @click.prevent="verMenos($event)">Ver menos</a>
+                                    </div> 
+                                    <br />
+                                <strong>Programa</strong> 
+                                    <div class="caja-programas">
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial-menos-3') }" class="lista-facultad lista-menos-3" v-html="programasMethod(item.programa)"></ul>
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial') }" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.programa)"></ul>
+                                        <a v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial') }" class="boton-ver-mas" href="#" @click.prevent="verMas($event)">Ver más</a>
+                                        <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'abierto') }" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.programa)"></ul>
+                                        <a v-bind:class="{ ocultar : contadorProgramas(item.programa,'abierto') }" class="boton-ver-menos" href="#" @click.prevent="verMenos($event)">Ver menos</a>
+                                    </div>
                             </div>
                         </div>
                         <div class="col-md-8 col-lg-8 Descripcion">
-                            <p class="titulo">{{ item.contenido }}</p>
+                            <p class="titulo">{{ item.nombre}}</p>
                             <strong>Fecha de inicio:</strong> <span class="txt">
                             {{ dia(item.fechaInicio) }} {{ mes(item.fechaInicio) }}, de {{ year(item.fechaInicio) }}
                             </span><br />
@@ -431,26 +446,6 @@ Vue.component('actividades', {
                             <div class="row">
                                 <div class="col-lg-3 Semestre_uno"><a href="">{{ item.periodo }}</a></div>
                                 <div class="col-lg-3 Cerrado"><a href="">{{ estado(item.fechaFin) }}</a></div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 caja-fp">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <strong>Facultad</strong> 
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial-menos-3') }" class="lista-facultad lista-menos-3" v-html="programasMethod(item.facultad)"></ul>
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial') }" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.facultad)"></ul>
-                                    <a v-bind:class="{ ocultar : contadorProgramas(item.facultad,'inicial') }" class="boton-ver-mas" href="#" @click.prevent="verMas($event)">Ver más</a>
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.facultad,'abierto') }" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.facultad)"></ul>
-                                    <a v-bind:class="{ ocultar : contadorProgramas(item.facultad,'abierto') }" class="boton-ver-menos" href="#" @click.prevent="verMenos($event)">Ver menos</a>
-                                </div>
-                                <div class="col-lg-6">
-                                    <strong>Programa</strong> 
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial-menos-3') }" class="lista-facultad lista-menos-3" v-html="programasMethod(item.programa)"></ul>
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial') }" class="lista-facultad lista-corta" v-html="verMasProgramasMethod(item.programa)"></ul>
-                                    <a v-bind:class="{ ocultar : contadorProgramas(item.programa,'inicial') }" class="boton-ver-mas" href="#" @click.prevent="verMas($event)">Ver más</a>
-                                    <ul v-bind:class="{ ocultar : contadorProgramas(item.programa,'abierto') }" class="lista-facultad lista-larga" v-html="verMenosProgramasMethod(item.programa)"></ul>
-                                    <a v-bind:class="{ ocultar : contadorProgramas(item.programa,'abierto') }" class="boton-ver-menos" href="#" @click.prevent="verMenos($event)">Ver menos</a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -543,13 +538,17 @@ Vue.component('actividades', {
             this.$store.commit('mostrarSoloCincoMutation', e);
         },
         contadorProgramas(programas,estado){
-            if((programas.match(/;/g) || []).length > 3 && estado == 'inicial'){
-                return false;
-            }else if((programas.match(/;/g) || []).length < 3 && estado == 'inicial'){
-                return true;
-            }
-            else if((programas.match(/;/g) || []).length < 3 && estado == 'inicial-menos-3'){
-                return false;
+            if(programas){
+                if((programas.match(/;/g) || []).length > 3 && estado == 'inicial'){
+                    return false;
+                }else if((programas.match(/;/g) || []).length < 3 && estado == 'inicial'){
+                    return true;
+                }
+                else if((programas.match(/;/g) || []).length < 3 && estado == 'inicial-menos-3'){
+                    return false;
+                }else{
+                    return true;
+                }
             }else{
                 return true;
             }
@@ -630,8 +629,8 @@ const store = new Vuex.Store({
     },
     actions: {
         llamarJson: async function({ commit }){
-            //const data = await fetch('calendario-2021-prueba.json');
-            const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
+            const data = await fetch('calendario-2021-prueba.json');
+            //const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
             const dataJson = await data.json();
             commit('llamarJsonMutation', dataJson);
         }
