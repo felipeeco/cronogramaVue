@@ -122,24 +122,17 @@ Vue.component('filtro',{
             </div>
             </div>
             <div class="form-group">
-            <p><a aria-controls="multiCollapseExample1" aria-expanded="false" class="Fecha" data-toggle="collapse" href="#multiCollapseExample1" role="button">Seleccione un mes</a></p>
-            <div class="row">
-                <div class="col">
-                    <div class="collapse multi-collapse" id="multiCollapseExample1">
-                        <div class="card card-body"><input class="form-control" id="example-date-input" type="date" value="2011-08-19" /></div>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <p><a aria-controls="multiCollapseExample2" aria-expanded="false" class="Fecha" data-toggle="collapse" href="#multiCollapseExample2" role="button">Seleccione un mes</a></p>
-                <div class="row">
+                <p><a type="button" @click="mostrarRangoDeFechas()" class="Fecha">Rango de fechas</a></p>
+                <div class="row" id="rango-fechas">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div>
                         <div class="card card-body">
                             <p>Fecha inicial</p>
-                            <input class="form-control" id="example-date-input" type="date" value="2011-08-19" />
+                            <input class="form-control" id="example-date-input" type="date" v-model="filtro.fechaInicial" />
+                            <p id="fecha-inicial-alerta">Fecha inicial no puede estar vacio</p>
                             <p>Fecha final</p>
-                            <input class="form-control" id="example-date-input" type="date" value="2011-08-19" />
+                            <input class="form-control" id="example-date-input" type="date" v-model="filtro.fechaFinal" />
+                            <p id="fecha-final-alerta">Fecha final no puede estar vacio</p>
                         </div>
                         </div>
                     </div>
@@ -162,6 +155,8 @@ Vue.component('filtro',{
     methods: {
         filtroMethod(){
             document.getElementById("mensaje-no-resultados").style.display = "none";
+            document.getElementById("fecha-inicial-alerta").style.display = "none";
+            document.getElementById("fecha-final-alerta").style.display = "none";
             var tempActividades = store.state.actividadesLimpiar;
             var duo = false;
             function validarDuo(){
@@ -172,8 +167,9 @@ Vue.component('filtro',{
                 }
             }
             if(store.state.filtro.palabraClaveFiltro !== ''){
-                store.state.actividades = [];
                 duo = true;
+                validarDuo();
+                store.state.actividades = [];
                 tempActividades.forEach( item => {
                     if(item.contenido){
                         if(item.contenido.toLowerCase().search(store.state.filtro.palabraClaveFiltro.toLowerCase()) >= 0){
@@ -220,6 +216,7 @@ Vue.component('filtro',{
                 }); 
             }
             if(store.state.filtro.programaFiltro !== ''){
+                validarDuo();
                 store.state.actividades = [];
                 duo = true;
                 tempActividades.forEach( item => {
@@ -229,6 +226,26 @@ Vue.component('filtro',{
                         }
                     }
                 });
+            }
+            if(store.state.filtro.fechaInicial !== '' || store.state.filtro.fechaFinal !== ''){
+                if(store.state.filtro.fechaInicial == '' && store.state.filtro.fechaFinal !== ''){
+                    document.getElementById("fecha-inicial-alerta").style.display = "block";
+                }else if(store.state.filtro.fechaInicial !== '' && store.state.filtro.fechaFinal == ''){
+                    document.getElementById("fecha-final-alerta").style.display = "block";
+                }else if(store.state.filtro.fechaInicial !== '' && store.state.filtro.fechaFinal !== ''){
+                    validarDuo();
+                    store.state.actividades = [];
+                    duo = true;
+                    tempActividades.forEach( item => {
+                        var fechaInicialFiltro = new Date(store.state.filtro.fechaInicial);
+                        var fechaFinalFiltro = new Date(store.state.filtro.fechaFinal);
+                        var fechaInicialExcel = new Date(item.fechaInicio);
+                        var fechaFinalExcel = new Date(item.fechaFin);
+                        if(fechaInicialExcel >=  fechaInicialFiltro && fechaFinalExcel <= fechaFinalFiltro){
+                            store.state.actividades.push(item);
+                        }
+                    }); 
+                }
             }
             if(store.state.actividades.length == 0){
                 document.getElementById("mensaje-no-resultados").style.display = "block";
@@ -244,12 +261,25 @@ Vue.component('filtro',{
             store.state.filtro.facultadFiltro = '';
             store.state.filtro.programaFiltro = '';
             store.state.ordenarVar = '';
+            store.state.filtro.fechaInicial = '';
+            store.state.filtro.fechaFinal = '';
             document.getElementById("customCheck1").checked = false;
             document.getElementById("customCheck2").checked = false;
             document.getElementById("customCheck3").checked = false;
             document.getElementById("mensaje-no-resultados").style.display = "none";
+            document.getElementById("fecha-inicial-alerta").style.display = "none";
+            document.getElementById("fecha-final-alerta").style.display = "none";
+            document.getElementById("rango-fechas").style.display = "none";
             document.getElementById("boton-mostrar-mas").style.display = "block";
             store.state.mostrarSoloCinco = true;
+        },
+        mostrarRangoDeFechas(){
+            let divRangoFechas = document.getElementById("rango-fechas");
+            if (window.getComputedStyle(divRangoFechas).display === "none"){
+                divRangoFechas.style.display = "block";
+            }else{
+                divRangoFechas.style.display = "none";
+            }
         }
     }
 });
@@ -581,7 +611,9 @@ const store = new Vuex.Store({
             tipoProgramaFiltro: '',
             categoriaFiltro: '',
             facultadFiltro: '',
-            programaFiltro: ''
+            programaFiltro: '',
+            fechaInicial: '',
+            fechaFinal: '',
         },
         ordenarVar: '',
         ordenDeActivades: true, //true es ascedente,
@@ -629,8 +661,8 @@ const store = new Vuex.Store({
     },
     actions: {
         llamarJson: async function({ commit }){
-            const data = await fetch('calendario-2021-prueba.json');
-            //const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
+            //const data = await fetch('calendario-2021-prueba.json');
+            const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
             const dataJson = await data.json();
             commit('llamarJsonMutation', dataJson);
         }
