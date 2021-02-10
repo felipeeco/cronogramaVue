@@ -13,10 +13,11 @@ function estadoFunction(date){
     }
 }
 function as(s){
+    let sinEspacios = s.replaceAll(" ", "");
     let a=["á","é","í","ó","ú","a","e","i","o","u"];
     let str="";
-    for(let i=0; i<s.length; i++){
-        let tmp = s[i];
+    for(let i=0; i<sinEspacios.length; i++){
+        let tmp = sinEspacios[i];
        for(let x=0; x < a.length-5; x++){
           if(tmp.toLowerCase() == a[x]){ tmp === tmp.toLowerCase() ? tmp=a[x+5] : tmp=a[x+5].toUpperCase();}
        }
@@ -79,20 +80,23 @@ Vue.component('filtro',{
             <div class="form-group">
             <select class="form-control" v-model="filtro.categoriaFiltro">
                 <option disabled value="">Categoria</option>
-                <option>Cierre académico</option>
-                <option>Comité de idiomas</option>
-                <option>Exámenes finales</option>
-                <option>Homologaciones, reconocimientos y validaciones</option>
-                <option>Inicio y finalización de clases</option>
-                <option>Otras actividades de la vida universitaria</option>
-                <option>Pago de matrículas</option>
-                <option>Proceso de inducción</option>
-                <option>Publicación de grupos cancelados</option>
-                <option>Recesos y vacaciones</option>
-                <option>Registro de asignaturas</option>
-                <option>Reporte de notas</option>
-                <option>Reserva de cupo, re activaciones de cupo y reintegros</option>
-                <option>Retiro de asignaturas</option>
+                <option class="ct ct-funcionario">Cierre académico</option>
+                <option class="">Comité de idiomas</option>
+                <option class="ct ct-funcionario">Contratación</option>
+                <option class="">Exámenes finales</option>
+                <option class="">Homologaciones, reconocimientos y validaciones</option>
+                <option class="">Inicio y finalización de clases</option>
+                <option class="">Otras actividades de la vida universitaria</option>
+                <option class="ct ct-estudiante">Pago de matrículas</option>
+                <option class="">Proceso de inducción</option>
+                <option class="ct ct-funcionario">Proceso de Planeación y Oferta Académica</option>
+                <option class="ct ct-profesores">Profesores</option>
+                <option class="">Publicación de grupos cancelados</option>
+                <option class="ct ct-funcionario">Recesos y vacaciones</option>
+                <option class="ct ct-funcionario">Registro de asignaturas</option>
+                <option class="">Reporte de notas</option>
+                <option class="">Reserva de cupo, re activaciones de cupo y reintegros</option>
+                <option class="">Retiro de asignaturas</option>
             </select>
             </div>
             <div class="form-group">
@@ -167,12 +171,11 @@ Vue.component('filtro',{
                 }
             }
             if(store.state.filtro.palabraClaveFiltro !== ''){
-                duo = true;
                 validarDuo();
                 store.state.actividades = [];
                 tempActividades.forEach( item => {
                     if(item.contenido){
-                        if(item.contenido.toLowerCase().search(store.state.filtro.palabraClaveFiltro.toLowerCase()) >= 0){
+                        if(as(item.contenido.toLowerCase()).search(as(store.state.filtro.palabraClaveFiltro.toLowerCase())) >= 0){
                             store.state.actividades.push(item);
                         }
                     }
@@ -221,7 +224,7 @@ Vue.component('filtro',{
                 duo = true;
                 tempActividades.forEach( item => {
                     if(item.programa){
-                        if(item.programa.toLowerCase().search(store.state.filtro.programaFiltro.toLowerCase()) >= 0){
+                        if(as(item.programa.toLowerCase()).search(as(store.state.filtro.programaFiltro.toLowerCase())) >= 0){
                             store.state.actividades.push(item);
                         }
                     }
@@ -418,8 +421,8 @@ Vue.component('actividades', {
                             {{ dia(item.fechaFin) }} {{ mes(item.fechaFin) }}, de {{ year(item.fechaFin) }}
                             </span><br />
                             <div class="row">
-                                <div class="col-lg-3 Semestre_uno"><a href="">{{ item.periodo }}</a></div>
-                                <div class="col-lg-3 Cerrado"><a href="">{{ estado(item.fechaFin) }}</a></div>
+                                <div class="col-lg-3 Semestre_uno"><div>{{ item.periodo }}</div></div>
+                                <div class="col-lg-3 Cerrado"><div>{{ estado(item.fechaFin) }}</div></div>
                             </div>
                         </div>
                     </div>
@@ -474,8 +477,8 @@ Vue.component('actividades', {
                             {{ dia(item.fechaFin) }} {{ mes(item.fechaFin) }}, de {{ year(item.fechaFin) }}
                             </span><br />
                             <div class="row">
-                                <div class="col-lg-3 Semestre_uno"><a href="">{{ item.periodo }}</a></div>
-                                <div class="col-lg-3 Cerrado"><a href="">{{ estado(item.fechaFin) }}</a></div>
+                                <div class="col-lg-3 Semestre_uno"><div>{{ item.periodo }}</div></div>
+                                <div class="col-lg-3 Cerrado"><div>{{ estado(item.fechaFin) }}</div></div>
                             </div>
                         </div>
                     </div>
@@ -623,32 +626,42 @@ const store = new Vuex.Store({
         llamarJsonMutation(state, llamarJsonAction){
             //actividades segmentadas
             if(window.location.pathname.toLowerCase().search("estudiantes") >= 0){
+                var elements = document.getElementsByClassName("ct-estudiante");
+                for (var i = 0, len = elements.length; i < len; i++) {
+                    elements[i].style.display = "block";
+                }
                 llamarJsonAction.Actividades.forEach( item => {
                     if(item.segmento.search("Estudiante") >= 0){
                         state.actividadesSegmentadas.push(item);
                     }
                 });
             }else if(window.location.pathname.toLowerCase().search("profesores") >= 0){
+                var elements = document.getElementsByClassName("ct-profesores");
+                for (var i = 0, len = elements.length; i < len; i++) {
+                    elements[i].style.display = "block";
+                }
                 llamarJsonAction.Actividades.forEach( item => {
                     if(item.segmento.search("profesor") >= 0){
                         state.actividadesSegmentadas.push(item);
                     }
                 });
             }else if(window.location.pathname.toLowerCase().search("funcionarios") >= 0){
+                var elements = document.getElementsByClassName("ct-funcionario");
+                for (var i = 0, len = elements.length; i < len; i++) {
+                    elements[i].style.display = "block";
+                }
                 llamarJsonAction.Actividades.forEach( item => {
                     if(item.segmento.search("funcionario") >= 0){
                         state.actividadesSegmentadas.push(item);
                     }
                 });
             }
-
             //filtro por eventos cerrados y abiertos
             state.actividadesSegmentadas.forEach( item => {
                 if(estadoFunction(item.fechaFin)){
                     state.actividades.push(item);
                 }
             });
-
             state.actividades = state.actividades.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
             state.actividadesLimpiar = state.actividades;
         },
@@ -661,8 +674,8 @@ const store = new Vuex.Store({
     },
     actions: {
         llamarJson: async function({ commit }){
-            //const data = await fetch('calendario-2021-prueba.json');
-            const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
+            const data = await fetch('calendario-2021-prueba.json');
+            //const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
             const dataJson = await data.json();
             commit('llamarJsonMutation', dataJson);
         }

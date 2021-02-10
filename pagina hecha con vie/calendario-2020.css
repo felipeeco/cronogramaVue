@@ -2,6 +2,10 @@
     display: none;
 }
 
+.ct{
+    display: none;
+}
+
 .lista-facultad li, .lista-programas li{
     color: gray;
 }
@@ -483,6 +487,7 @@ a.Fecha {
     color: #9d9d9d;
     margin-bottom: 17px;
     font-weight: 700;
+    transition: 1s;
 }
 .input-group-btn button {
     background-color: #ffffff;
@@ -582,6 +587,53 @@ a.boton-ver-menos {
     transition-delay: 1s;
     margin-top: 11px;
     text-align: center;
+}
+
+p#fecha-inicial-alerta {
+    background-color: #14286f;
+    margin: 18px 0;
+    text-align: center;
+    color: white;
+    padding: 7px 0;
+    border: 1px solid#dddddd;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+p#fecha-inicial-alerta:before {
+    content: "";
+    position: absolute;
+    top: 87px;
+    left: 44%;
+    width: 0;
+    height: 0;
+    border-width: 0 21px 18px;
+    border-style: solid;
+    border-color: transparent transparent #14286f;
+}
+p#fecha-final-alerta {
+    background-color: #14286f;
+    margin: 18px 0;
+    text-align: center;
+    color: white;
+    padding: 7px 0;
+    border: 1px solid#dddddd;
+    font-weight: 700;
+    border-radius: 5px;
+}
+p#fecha-final-alerta:before {
+    content: "";
+    position: absolute;
+    top: 147px;
+    left: 44%;
+    width: 0;
+    height: 0;
+    border-width: 0 21px 18px;
+    border-style: solid;
+    border-color: transparent transparent #14286f;
+}
+a.Fecha:hover {
+    color: #143274;
 }
 @media (max-width: 1024px) {
     .flex-container>div {
