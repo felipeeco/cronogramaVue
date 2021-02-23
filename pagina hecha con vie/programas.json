@@ -1,0 +1,1108 @@
+{
+    "programas": [
+        {
+            "snies": "105184",
+            "programa": "Doctorado en Ciencias Biomédicas y Biológicas",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Doctorado"
+        },
+        {
+            "snies": "90331",
+            "programa": "Doctorado en Ciencias de la Dirección",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Doctorado"
+        },
+        {
+            "snies": "53210",
+            "programa": "Doctorado en Derecho",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Doctorado"
+        },
+        {
+            "snies": "53209",
+            "programa": "Doctorado en Economía",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Doctorado"
+        },
+        {
+            "snies": "103093",
+            "programa": "Doctorado en Estudios Políticos e Internacionales",
+            "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
+            "nivel": "Doctorado"
+        },
+        {
+            "snies": "108360",
+            "programa": "Doctorado en Investigación Clínica",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Doctorado"
+        },
+        {
+            "snies": "101783",
+            "programa": "Especialización  en Traducción",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "91092",
+            "programa": "Especialización en Contratación Estatal y su Gestión",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "109163",
+            "programa": "Especialización En Contratación Estatal Y Su Gestión",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "102311",
+            "programa": "Especialización en Derecho Administrativo",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "1323",
+            "programa": "Especialización en Derecho Administrativo",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "52335",
+            "programa": "Especialización en Derecho Administrativo",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "109153",
+            "programa": "Especialización En Derecho Aduanero y Comercio Exterior",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "91079",
+            "programa": "Especialización en Derecho Aduanero y del Comercio Exterior",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "106459",
+            "programa": "Especialización en Derecho Ambiental",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "4317",
+            "programa": "Especialización en Derecho Ambiental",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "102217",
+            "programa": "Especialización en Derecho Comercial",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "15760",
+            "programa": "Especialización en Derecho Comercial",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "16027",
+            "programa": "Especialización en Derecho Constitucional",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "52336",
+            "programa": "Especialización en Derecho Constitucional",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "17803",
+            "programa": "Especialización en Derecho Contractual",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "53085",
+            "programa": "Especialización en Derecho Contractual",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "103702",
+            "programa": "Especialización en Derecho de Familia",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "103701",
+            "programa": "Especialización en Derecho de Hidrocarburos",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "107515",
+            "programa": "Especialización en Derecho de la Empresa",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "103703",
+            "programa": "Especialización en Derecho de Seguros",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "106634",
+            "programa": "Especialización en Derecho del Mar",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "10212",
+            "programa": "Especialización en Derecho Empresarial y de los Negocios",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "1324",
+            "programa": "Especialización en Derecho Financiero",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "106798",
+            "programa": "Especialización en Derecho Internacional",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "109164",
+            "programa": "Especialización En Derecho Internacional",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "101714",
+            "programa": "Especialización en Derecho Internacional de Los Derechos Humanos y Derecho Internacional Humanitario",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "108259",
+            "programa": "Especialización en Derecho Laboral y de la Seguridad Social",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "17800",
+            "programa": "Especialización en Derecho Laboral y de La Seguridad Social",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "53082",
+            "programa": "Especialización en Derecho Laboral y de La Seguridad Social",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "107411",
+            "programa": "Especialización en Derecho Médico Sanitario",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "52337",
+            "programa": "Especialización en Derecho Médico Sanitario",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "4305",
+            "programa": "Especialización en Derecho Penal",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "17796",
+            "programa": "Especialización en Derecho Probatorio",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "108361",
+            "programa": "Especialización en Derecho Procesal",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "1325",
+            "programa": "Especialización en Derecho Procesal",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "53084",
+            "programa": "Especialización en Derecho Procesal",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "108189",
+            "programa": "Especialización en Derecho Tributario",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "1326",
+            "programa": "Especialización en Derecho Tributario",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "103039",
+            "programa": "Especialización en Derecho Urbano",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "106799",
+            "programa": "Especialización en Derecho Urbano",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "53736",
+            "programa": "Especialización en Derecho Urbano",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "109230",
+            "programa": "Especialización en Educación para Profesionales de la Salud",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "12330",
+            "programa": "Especialización en Ejercicio Físico para La Salud",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "1332",
+            "programa": "Especialización en Evaluación y Desarrollo de Proyectos",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "52074",
+            "programa": "Especialización en Evaluación y Desarrollo de Proyectos",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "1328",
+            "programa": "Especialización en Finanzas",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "4744",
+            "programa": "Especialización en Finanzas",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "54116",
+            "programa": "Especialización en Fisioterapia en Paciente Adulto Crítico",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "101638",
+            "programa": "Especialización en Gerencia de Empresas",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "101897",
+            "programa": "Especialización en Gerencia de Empresas",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "1330",
+            "programa": "Especialización en Gerencia de Empresas",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "109171",
+            "programa": "Especialización en Gerencia de Marketing para entornos digitales",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "13705",
+            "programa": "Especialización en Gerencia de Mercadeo",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "52896",
+            "programa": "Especialización en Gerencia de Mercadeo",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "54564",
+            "programa": "Especialización en Gerencia de Mercadeo",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "9812",
+            "programa": "Especialización en Gerencia de Negocios Globales",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "106532",
+            "programa": "Especialización en Gerencia de Negocios Internacionales",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "104219",
+            "programa": "Especialización en Gerencia de Proyectos de Construcción e Infraestructura",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "107045",
+            "programa": "Especialización en Gerencia de Proyectos de Construcción e Infraestructura",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "107323",
+            "programa": "Especialización en Gerencia de Proyectos de Construcción e Infraestructura",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "107472",
+            "programa": "Especialización en Gerencia de Proyectos de Construcción e Infraestructura",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "17810",
+            "programa": "Especialización en Gerencia de Proyectos de Construcción e Infraestructura",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "101721",
+            "programa": "Especialización en Gerencia de Proyectos de Servicios con Tic",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "106222",
+            "programa": "Especialización en Gerencia de Proyectos de Servicios con Tic",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "11078",
+            "programa": "Especialización en Gerencia Integral de Servicios de Salud",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "104661",
+            "programa": "Especialización en Gerencia Integral de Servicios de Salud - Virtual",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "8123",
+            "programa": "Especialización en Gerencia Pública y Control Fiscal",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "109165",
+            "programa": "Especialización En Gerencia Pública Y Control Fiscal",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "104760",
+            "programa": "Especialización en Gerencia y Gestión Cultural",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "3038",
+            "programa": "Especialización en Gerencia y Gestión Cultural",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "106223",
+            "programa": "Especialización en Gestión Humana",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "106224",
+            "programa": "Especialización en Gestión Humana",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "106225",
+            "programa": "Especialización en Gestión Humana",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "108235",
+            "programa": "Especialización en Gestión Humana",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "13058",
+            "programa": "Especialización en Mercado de Capitales",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "106554",
+            "programa": "Especialización en Perfusión y Circulación Extracorpórea",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "52171",
+            "programa": "Especialización en Propiedad Intelectual",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "11108",
+            "programa": "Especialización en Rehabilitación Cardiaca y Pulmonar",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "54304",
+            "programa": "Especialización en Salud Ocupacional",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización"
+        },
+        {
+            "snies": "4930",
+            "programa": "Especialización en Anestesia Cardiotorácica",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1301",
+            "programa": "Especialización en Anestesiología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1302",
+            "programa": "Especialización en Cardiología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "6570",
+            "programa": "Especialización en Cardiología Intervencionista y Hemodinamia",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "6569",
+            "programa": "Especialización en Cardiología Pediátrica",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "2709",
+            "programa": "Especialización en Cirugía Cardiovascular",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "104918",
+            "programa": "Especialización en Cirugía de Mano",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1303",
+            "programa": "Especialización en Cirugía General",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "54054",
+            "programa": "Especialización en Cirugía Vascular Periférica y Angiología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "104064",
+            "programa": "Especialización en Coloproctología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "52274",
+            "programa": "Especialización en Cuidado Intensivo Pediátrico",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "11109",
+            "programa": "Especialización en Ecocardiografía",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1319",
+            "programa": "Especialización en Endocrinología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "102817",
+            "programa": "Especialización en Gastroenterología y Endoscopia Digestiva",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1305",
+            "programa": "Especialización en Ginecología y Obstetricia",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "54056",
+            "programa": "Especialización en Infectología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "104922",
+            "programa": "Especialización en Mastología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "54055",
+            "programa": "Especialización en Medicina Crítica y Cuidado Intensivo",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "16100",
+            "programa": "Especialización en Medicina de Emergencias",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "102266",
+            "programa": "Especialización en Medicina del Dolor y Cuidado Paliativo",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1307",
+            "programa": "Especialización en Medicina Interna",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "16130",
+            "programa": "Especialización en Medicina Materno Fetal",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1321",
+            "programa": "Especialización en Medicina Nuclear",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1308",
+            "programa": "Especialización en Nefrología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "16129",
+            "programa": "Especialización en Neonatología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1309",
+            "programa": "Especialización en Neurocirugía",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "11048",
+            "programa": "Especialización en Neurofisiología Clínica",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1310",
+            "programa": "Especialización en Neurología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1311",
+            "programa": "Especialización en Oftalmología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1312",
+            "programa": "Especialización en Ortopedia y Traumatología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1313",
+            "programa": "Especialización en Otorrinolaringología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1315",
+            "programa": "Especialización en Pediatría",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1316",
+            "programa": "Especialización en Psiquiatría",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1317",
+            "programa": "Especialización en Radiología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "54964",
+            "programa": "Especialización en Retina y Vítreo",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "4893",
+            "programa": "Especialización en Toxicología Clínica",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "1318",
+            "programa": "Especialización en Urología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Especialización MQ"
+        },
+        {
+            "snies": "104866",
+            "programa": "Maestría en Actividad Física y Salud",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "102006",
+            "programa": "Maestría en Actividad Física y Salud",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "105712",
+            "programa": "Maestría en Administración - MBA",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "53374",
+            "programa": "Maestría en Administración en Salud",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "105963",
+            "programa": "Maestría en Ciencias de la Rehabilitación",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "108260",
+            "programa": "Maestría en Ciencias Naturales",
+            "facultad": "FACULTAD DE CIENCIAS NATURALES",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "109390",
+            "programa": "Maestría en Conflicto, Memoria y Paz",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "90708",
+            "programa": "Maestría en Derecho",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "4553",
+            "programa": "Maestría en Derecho Administrativo",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "107274",
+            "programa": "Maestría en Derecho Internacional",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "108370",
+            "programa": "Maestría en Derecho laboral y de la Seguridad Social",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "106796",
+            "programa": "Maestría en Derecho y Gestión Ambiental",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "109524",
+            "programa": "Maestría en Derecho y Gestión Urbanística",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "90802",
+            "programa": "Maestría en Dirección",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "10639",
+            "programa": "Maestría en Economía",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "103886",
+            "programa": "Maestría en Economía de las Políticas Públicas",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "109231",
+            "programa": "Maestría en Educación para Profesionales de la Salud",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "105711",
+            "programa": "Maestría en Emprendimiento e Innovación",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "53737",
+            "programa": "Maestría en Estudios Políticos e Internacionales",
+            "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "90665",
+            "programa": "Maestría en Estudios Sociales",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "19947",
+            "programa": "Maestría en Filosofía",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "107273",
+            "programa": "Maestría en Finanzas",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "101875",
+            "programa": "Maestría en Finanzas Cuantitativas",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "106595",
+            "programa": "Maestría en Ingeniería Biomédica",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "105753",
+            "programa": "Maestría en Marketing",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "90760",
+            "programa": "Maestría en Periodismo",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "104867",
+            "programa": "Maestría en Salud Pública",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "105078",
+            "programa": "Maestría en Seguridad y Salud en el Trabajo",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "105492",
+            "programa": "Maestría en Seguridad y Salud en el Trabajo",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Maestría"
+        },
+        {
+            "snies": "1299",
+            "programa": "Administración de Empresas",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "10574",
+            "programa": "Administración de Negocios Internacionales",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "52072",
+            "programa": "Administración en Logística y Producción",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "51786",
+            "programa": "Antropología",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "109404",
+            "programa": "Arquitectura",
+            "facultad": "FACULTAD DE CREACIÓN",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "109352",
+            "programa": "Artes",
+            "facultad": "FACULTAD DE CREACIÓN",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "54017",
+            "programa": "Artes Liberales en Ciencias Sociales",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "102921",
+            "programa": "Biología",
+            "facultad": "FACULTAD DE CIENCIAS NATURALES",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "4368",
+            "programa": "Ciencia Política y Gobierno",
+            "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "109494",
+            "programa": "Creación",
+            "facultad": "FACULTAD DE CREACIÓN",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "109406",
+            "programa": "Diseño",
+            "facultad": "FACULTAD DE CREACIÓN",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "1298",
+            "programa": "Economía",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "1300",
+            "programa": "Filosofía",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "10547",
+            "programa": "Finanzas y Comercio Internacional",
+            "facultad": "FACULTAD DE ECONOMÍA",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "1293",
+            "programa": "Fisioterapia",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "1294",
+            "programa": "Fonoaudiología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "51641",
+            "programa": "Gestión y Desarrollo Urbanos",
+            "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "51887",
+            "programa": "Historia",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "91049",
+            "programa": "Ingeniería Biomédica",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "0003",
+            "programa": "Ingeniería Electrónica",
+            "facultad": "ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "0001",
+            "programa": "Ingeniería Industrial",
+            "facultad": "ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "1297",
+            "programa": "Jurisprudencia",
+            "facultad": "FACULTAD DE JURISPRUDENCIA",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "106305",
+            "programa": "Licenciatura en Ciencias Sociales",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "106389",
+            "programa": "Licenciatura en Filosofía",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "108262",
+            "programa": "Marketing y Negocios Digitales",
+            "facultad": "ESCUELA DE ADMINISTRACIÓN",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "105653",
+            "programa": "Matemáticas Aplicadas y Ciencias de la Computación",
+            "facultad": "ESCUELA DE INGENIERÍA CIENCIA Y TECNOLOGÍA",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "1295",
+            "programa": "Medicina",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "15613",
+            "programa": "Periodismo y Opinión Pública",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "16010",
+            "programa": "Psicología",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "4753",
+            "programa": "Relaciones Internacionales",
+            "facultad": "FACULTAD DE ESTUDIOS INTERNACIONALES, POLÍTICOS Y URBANOS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "4239",
+            "programa": "Sociología",
+            "facultad": "ESCUELA DE CIENCIAS HUMANAS",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "108006",
+            "programa": "Teatro Musical",
+            "facultad": "FACULTAD DE CREACIÓN",
+            "nivel": "Pregrado"
+        },
+        {
+            "snies": "1296",
+            "programa": "Terapia  Ocupacional",
+            "facultad": "ESCUELA DE MEDICINA Y CIENCIAS DE LA SALUD",
+            "nivel": "Pregrado"
+        }
+    ]
+}

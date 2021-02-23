@@ -114,16 +114,12 @@ Vue.component('filtro',{
             </select>
             </div>
             <div class="form-group">
-            <div class="input-group">
-                <div class="input-group-btn">
-                    <button class="btn btn-default" type="submit">
-                        <i class="fas fa-search">
-                        <!--icono-->
-                        </i>
-                    </button>
-                </div>
-                <input class="form-control" name="search" v-model="filtro.programaFiltro" placeholder="Programa" type="text" />
-            </div>
+                <select class="form-control" v-model="filtro.programaFiltro">
+                    <option disabled value="">Programa</option>
+                    <template v-for="(item, key) in programas">
+                        <option>{{ item.programa }}</option>
+                    </template>
+                </select>
             </div>
             <div class="form-group">
                 <p><a type="button" @click="mostrarRangoDeFechas()" class="Fecha">Rango de fechas</a></p>
@@ -154,7 +150,7 @@ Vue.component('filtro',{
     </div>   
     `,
     computed: {
-        ...Vuex.mapState(['filtro']),
+        ...Vuex.mapState(['filtro','programas'])
     },
     methods: {
         filtroMethod(){
@@ -492,7 +488,7 @@ Vue.component('actividades', {
         </div>
         `,
     computed: {
-        ...Vuex.mapState(['actividades','programas']),
+        ...Vuex.mapState(['actividades']),
         ...Vuex.mapState({
             mostrarSoloCinco: state => state.mostrarSoloCinco
         })
@@ -667,6 +663,10 @@ const store = new Vuex.Store({
             state.actividades = state.actividades.sort((a, b) => parseFloat(a.fechaInicio) - parseFloat(b.fechaInicio));
             state.actividadesLimpiar = state.actividades;
         },
+        llamarJsonProgramas(state, Json){
+            state.programas = Json.programas;
+            console.log(state.programas);
+        },
         ordenarMutation(state, value){
             state.ordenarVar = value
         },
@@ -680,6 +680,11 @@ const store = new Vuex.Store({
             //const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
             const dataJson = await data.json();
             commit('llamarJsonMutation', dataJson);
+        },
+        jsonProgramas: async function({ commit }){
+            const dataProgramas = await fetch('programas.json');
+            const dataJsonProgramas = await dataProgramas.json();
+            commit('llamarJsonProgramas', dataJsonProgramas);
         }
     }
 });
@@ -690,5 +695,6 @@ new Vue({
     store: store,
     created(){
         this.$store.dispatch('llamarJson');
+        this.$store.dispatch('jsonProgramas');
     },
 });
