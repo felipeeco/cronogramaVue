@@ -79,7 +79,7 @@ Vue.component('filtro',{
             </div>
             <div class="form-group">
             <select class="form-control" v-model="filtro.categoriaFiltro">
-                <option disabled value="">Categoria</option>
+                <option disabled value="">Categoría</option>
                 <option class="ct ct-funcionario">Cierre académico</option>
                 <option class="">Comité de idiomas</option>
                 <option class="ct ct-funcionario">Contratación</option>
@@ -110,7 +110,7 @@ Vue.component('filtro',{
                 <option>Facultad de Estudios Internacionales, Políticos y Urbanos</option>
                 <option>Facultad de Ciencias Naturales</option>
                 <option>Facultad de Creación</option>
-                <option>Escuela de Ingeniería, Ciencia y Tecnologí</option>
+                <option>Escuela de Ingeniería, Ciencia y Tecnología</option>
             </select>
             </div>
             <div class="form-group">
@@ -173,6 +173,7 @@ Vue.component('filtro',{
             if(store.state.filtro.palabraClaveFiltro !== ''){
                 validarDuo();
                 store.state.actividades = [];
+                duo = true;
                 tempActividades.forEach( item => {
                     if(item.contenido){
                         if(as(item.contenido.toLowerCase()).search(as(store.state.filtro.palabraClaveFiltro.toLowerCase())) >= 0){
@@ -244,7 +245,8 @@ Vue.component('filtro',{
                         var fechaFinalFiltro = new Date(store.state.filtro.fechaFinal);
                         var fechaInicialExcel = new Date(item.fechaInicio);
                         var fechaFinalExcel = new Date(item.fechaFin);
-                        if(fechaInicialExcel >=  fechaInicialFiltro && fechaFinalExcel <= fechaFinalFiltro){
+
+                        if((fechaInicialFiltro <=  fechaFinalExcel) && (fechaInicialExcel <=  fechaFinalFiltro)){
                             store.state.actividades.push(item);
                         }
                     }); 
@@ -490,7 +492,7 @@ Vue.component('actividades', {
         </div>
         `,
     computed: {
-        ...Vuex.mapState(['actividades','programas', ]),
+        ...Vuex.mapState(['actividades','programas']),
         ...Vuex.mapState({
             mostrarSoloCinco: state => state.mostrarSoloCinco
         })
