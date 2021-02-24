@@ -255,7 +255,6 @@ Vue.component('filtro',{
             }
         },
         listaProgramas(){
-            console.log("llama lista");
             var tempProgramas = store.state.programasLimpiar;
             var tempActividadesP = store.state.actividadesLimpiar;
             var duo = false;
@@ -272,7 +271,7 @@ Vue.component('filtro',{
                 duo = true;
                 tempProgramas.forEach(item => {
                     if(item.nivel){
-                        if(store.state.filtro.tipoProgramaFiltro == "Pregado"){
+                        if(store.state.filtro.tipoProgramaFiltro == "Pregrado"){
                             if(item.nivel.toLowerCase() == "pregrado"){
                                 store.state.programas.push(item);
                             }
@@ -293,7 +292,7 @@ Vue.component('filtro',{
                     tempActividadesP.forEach( item => {
                         if(item.categoria && item.programa){
                             if(as(item.categoria.toLowerCase()) == as(store.state.filtro.categoriaFiltro.toLowerCase())){
-                                if(as(itemPrograma.programa.toLowerCase().search(as(item.programa.toLowerCase())) >= 0)){
+                                if(as(item.programa.toLowerCase()).search(as(itemPrograma.programa.toLowerCase())) >= 0){
                                     result = true;
                                 }
                             }
@@ -334,6 +333,7 @@ Vue.component('filtro',{
             document.getElementById("rango-fechas").style.display = "none";
             document.getElementById("boton-mostrar-mas").style.display = "block";
             store.state.mostrarSoloCinco = true;
+            store.state.programas = store.state.programasLimpiar;
         },
         mostrarRangoDeFechas(){
             let divRangoFechas = document.getElementById("rango-fechas");
@@ -726,8 +726,15 @@ const store = new Vuex.Store({
             state.actividadesLimpiar = state.actividades;
         },
         llamarJsonProgramas(state, Json){
-            state.programas = Json.programas;
-            state.programasLimpiar = Json.programas;
+            let programasOrdenados = Json.programas;
+            programasOrdenados.sort(function(a, b){
+                if(a.programa < b.programa) { return -1; }
+                if(a.programa > b.programa) { return 1; }
+                return 0;
+            });
+
+            state.programas = programasOrdenados;
+            state.programasLimpiar = programasOrdenados;
         },
         ordenarMutation(state, value){
             state.ordenarVar = value
