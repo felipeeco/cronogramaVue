@@ -71,14 +71,14 @@ Vue.component('filtro',{
             <input class="form-control" v-model="filtro.palabraClaveFiltro" name="search" placeholder="¿Qué estás buscando?" type="text" />
             </div>
             <div class="form-group">
-            <select class="form-control" v-model="filtro.tipoProgramaFiltro">
+            <select class="form-control" v-model="filtro.tipoProgramaFiltro" @change="listaProgramas()">
                 <option disabled value="">Tipo de programa</option>
                 <option>Pregrado</option>
                 <option>Posgrado</option>
             </select>
             </div>
             <div class="form-group">
-            <select class="form-control" v-model="filtro.categoriaFiltro">
+            <select class="form-control" v-model="filtro.categoriaFiltro" @change="listaProgramas()">
                 <option disabled value="">Categoría</option>
                 <option class="ct ct-funcionario">Cierre académico</option>
                 <option class="">Comité de idiomas</option>
@@ -100,7 +100,7 @@ Vue.component('filtro',{
             </select>
             </div>
             <div class="form-group">
-            <select class="form-control" v-model="filtro.facultadFiltro">
+            <select class="form-control" v-model="filtro.facultadFiltro" @change="listaProgramas()">
                 <option disabled value="">Facultad</option>
                 <option>Escuela de Administración</option>
                 <option>Escuela de Medicina y Ciencias de la Salud</option>
@@ -252,6 +252,67 @@ Vue.component('filtro',{
                 document.getElementById("mensaje-no-resultados").style.display = "block";
                 document.getElementById("boton-mostrar-mas").style.display = "none";
                 store.state.usoFiltro = true;
+            }
+        },
+        listaProgramas(){
+            console.log("llama lista");
+            var tempProgramas = store.state.programasLimpiar;
+            var tempActividadesP = store.state.actividadesLimpiar;
+            var duo = false;
+            function validarDuo(){
+                if(duo){
+                    tempProgramas = store.state.programas;
+                }else{
+                    tempProgramas = store.state.programasLimpiar;
+                }
+            }
+            if(store.state.filtro.tipoProgramaFiltro !== ''){
+                validarDuo();
+                store.state.programas = [];
+                duo = true;
+                tempProgramas.forEach(item => {
+                    if(item.nivel){
+                        if(store.state.filtro.tipoProgramaFiltro == "Pregado"){
+                            if(item.nivel.toLowerCase() == "pregrado"){
+                                store.state.programas.push(item);
+                            }
+                        }else if(store.state.filtro.tipoProgramaFiltro == "Posgrado"){
+                            if(item.nivel.toLowerCase() != "pregrado"){
+                                store.state.programas.push(item);
+                            }
+                        }
+                    }
+                });
+            }
+            if(store.state.filtro.categoriaFiltro !== ''){
+                validarDuo();
+                store.state.programas = [];
+                duo = true;                
+                tempProgramas.forEach( itemPrograma => {
+                    var result = false;
+                    tempActividadesP.forEach( item => {
+                        if(item.categoria && item.programa){
+                            if(as(item.categoria.toLowerCase()) == as(store.state.filtro.categoriaFiltro.toLowerCase())){
+                                if(as(itemPrograma.programa.toLowerCase().search(as(item.programa.toLowerCase())) >= 0)){
+                                    result = true;
+                                }
+                            }
+                        }
+                    });
+                    if(result){
+                        store.state.programas.push(itemPrograma);
+                    }
+                });
+            }
+            if(store.state.filtro.facultadFiltro !== ''){
+                validarDuo();
+                store.state.programas = [];
+                duo = true;        
+                tempProgramas.forEach( itemPrograma => {
+                    if(as(itemPrograma.facultad.toLowerCase()) == as(store.state.filtro.facultadFiltro.toLowerCase())){
+                        store.state.programas.push(itemPrograma);
+                    }
+                });
             }
         },
         limpiarMethod(){
@@ -607,6 +668,7 @@ const store = new Vuex.Store({
         actividadesLimpiar: [],
         usoFiltro: false,
         programas: [],
+        programasLimpiar: [],
         filtro: {
             palabraClaveFiltro: '',
             tipoProgramaFiltro: '',
@@ -665,7 +727,7 @@ const store = new Vuex.Store({
         },
         llamarJsonProgramas(state, Json){
             state.programas = Json.programas;
-            console.log(state.programas);
+            state.programasLimpiar = Json.programas;
         },
         ordenarMutation(state, value){
             state.ordenarVar = value
