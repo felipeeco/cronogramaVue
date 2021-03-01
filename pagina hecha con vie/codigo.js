@@ -110,7 +110,7 @@ Vue.component('filtro',{
                 <option>Facultad de Estudios Internacionales, Políticos y Urbanos</option>
                 <option>Facultad de Ciencias Naturales</option>
                 <option>Facultad de Creación</option>
-                <option>Escuela de Ingeniería, Ciencia y Tecnología</option>
+                <option>Escuela de Ingeniería Ciencia y Tecnología</option>
             </select>
             </div>
             <div class="form-group">
@@ -745,13 +745,14 @@ const store = new Vuex.Store({
     },
     actions: {
         llamarJson: async function({ commit }){
-            const data = await fetch('calendario-2021-prueba.json');
-            //const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
+            //const data = await fetch('calendario-2021-prueba.json');
+            const data = await fetch('/Documentos/Calendario-academico/calendario-2021-json.json');
             const dataJson = await data.json();
             commit('llamarJsonMutation', dataJson);
         },
         jsonProgramas: async function({ commit }){
-            const dataProgramas = await fetch('programas.json');
+            const dataProgramas = await fetch('/Documentos/Calendario-academico/programas.json');
+            //const dataProgramas = await fetch('programas.json');
             const dataJsonProgramas = await dataProgramas.json();
             commit('llamarJsonProgramas', dataJsonProgramas);
         }
